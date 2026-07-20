@@ -183,4 +183,4 @@ Workload Factory 建议将存储虚拟机的默认报告设置设置为逻辑，
 
 
 .下一步
-link:fsx/improve-configurations-fsx.html["实施架构良好的 FSx for ONTAP 文件系统配置"]
+link:improve-configurations-fsx.html["实施架构良好的 FSx for ONTAP 文件系统配置"]

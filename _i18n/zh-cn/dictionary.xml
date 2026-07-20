@@ -125,7 +125,6 @@
   <block id="3f13a901b4c6ed36f4bf5c5510e9ed24" category="paragraph">启用冷数据分层，将冷数据从 SSD 存储层移动到成本较低的存储。Azure Blob Storage 用作非活动数据的容量层。</block>
   <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">下一步</block>
   <block id="12959707639320f789d4bb4fbba777f1" category="inline-link-macro">实施架构良好的 Cloud Volumes ONTAP 系统配置</block>
-  <block id="70c25ce13f84b6cf616c5c5393012e5d" category="paragraph"><block ref="70c25ce13f84b6cf616c5c5393012e5d" category="inline-link-macro-rx"></block></block>
   <block id="17971bad5bbff77e668b69daffb7a446" category="summary">Workload factory 扫描 Cloud Volumes ONTAP 配置，提供见解和建议，帮助您实现卓越运营。</block>
   <block id="a5f72f42d4d49e54f3c4c72a4faac290" category="paragraph">使用配置分析见解和建议，借助 NetApp 为运行在 Microsoft Azure 存储上的 Cloud Volumes ONTAP 系统实施最佳实践。您可以轻松查看架构完善状态，了解配置问题，并获得改进任何未针对可靠性、安全性、效率、性能和成本进行优化的系统架构的建议。</block>
   <block id="2481fd47e889a8c5be960ceeee3fc039" category="inline-link-macro">了解配置分析和架构良好的状态。</block>
@@ -199,7 +198,6 @@
   <block id="934fd3399568391e103ee0d773bf954d" category="list-text">*非活动 NAS 卷*</block>
   <block id="ad888b2fc1946f3bc7c47013f4399476" category="paragraph">配置分析可识别未主动使用的 NAS 卷，并建议删除或归档这些卷以降低成本。</block>
   <block id="e8355e7c1132891c80c2af3110068130" category="inline-link-macro">实施架构良好的 FSx for ONTAP 文件系统配置</block>
-  <block id="1ee8c065d47cecf380fd9841f303d49a" category="paragraph"><block ref="1ee8c065d47cecf380fd9841f303d49a" category="inline-link-macro-rx"></block></block>
   <block id="79e27ec6fe4e85288757fae779bab815" category="inline-link-macro">授予 _operations and remediation_ 权限</block>
   <block id="357d9dd76af15c8aaf8f09990a2846a9" category="list-text">您必须在 AWS 帐户中<block ref="6f74e2a9589a6666ba7fdb81dabfc5eb" category="inline-link-macro-rx"></block>。</block>
   <block id="a9d8fc136a7c1528e9a5743b9de2661a" category="inline-link-macro">使用链接连接到 FSx for ONTAP 文件系统</block>
@@ -573,4 +571,6 @@
   <block id="9d10d0bdf93932822ff5bc0f86ac6b28" category="list-text">在 Well-architected 仪表板中，*忽略的配置*。</block>
   <block id="c37e06ff1ab011341411419a0b9135f1" category="summary">了解 NetApp Console 中精心设计的控制面板的新功能。</block>
   <block id="6fb3d6accfe922bd3fef5d5bed978117" category="doc">NetApp Console 中 Well-Architected 控制面板的新增功能</block>
+  <block id="4981d84eaa3fd6ff3264cddba1073588" category="paragraph"><block ref="4981d84eaa3fd6ff3264cddba1073588" category="inline-link-macro-rx"></block></block>
+  <block id="79a8fc85f9cfab6c1f84759be4b7d0ca" category="paragraph"><block ref="79a8fc85f9cfab6c1f84759be4b7d0ca" category="inline-link-macro-rx"></block></block>
 </blocks>
