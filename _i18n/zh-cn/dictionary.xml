@@ -6,9 +6,7 @@
   <block id="6e2cc6111df032359200840287f3c08f" category="paragraph">详细了解 <block ref="5f27d98a28d7d5cdbad5c60f254e5b36" category="inline-link-macro-rx"></block>。</block>
   <block id="77411708fcf4ba6bf72f1bc14c6e4893" category="paragraph">控制台中的架构完善控制面板可用于以下存储系统：</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="inline-link-macro">Amazon FSx for NetApp ONTAP</block>
-  <block id="d99d7f946ceac15eeacc4a0c7735874d" category="list-text"><block ref="d99d7f946ceac15eeacc4a0c7735874d" category="inline-link-macro-rx"></block></block>
   <block id="d9f28f14f6e934bc2dca96849f86ad2f" category="inline-link-macro">Microsoft Azure 中的 Cloud Volumes ONTAP</block>
-  <block id="e4ef65f45fd48bfa39ea36cadb3df4ce" category="list-text"><block ref="e4ef65f45fd48bfa39ea36cadb3df4ce" category="inline-link-macro-rx"></block></block>
   <block id="95be701b55d8162269ca03772d2761bc" category="section-title">创建自己的自定义规则</block>
   <block id="6b0f72e83c27494413b50e62a79dac44" category="paragraph">以通俗易懂的语言编写自定义规则，以确保您的系统遵循组织的标准和 NetApp 最佳实践。通过试运行测试规则，然后安排它们在您的环境中运行。</block>
   <block id="8817b0c6f0795c52cab62044416eee8a" category="inline-link">详细了解自定义规则</block>
@@ -202,20 +200,15 @@
   <block id="ad888b2fc1946f3bc7c47013f4399476" category="paragraph">配置分析可识别未主动使用的 NAS 卷，并建议删除或归档这些卷以降低成本。</block>
   <block id="e8355e7c1132891c80c2af3110068130" category="inline-link-macro">实施架构良好的 FSx for ONTAP 文件系统配置</block>
   <block id="1ee8c065d47cecf380fd9841f303d49a" category="paragraph"><block ref="1ee8c065d47cecf380fd9841f303d49a" category="inline-link-macro-rx"></block></block>
-  <block id="b8bfbf72dc92e989a0b91cd409144076" category="summary">Workload factory 扫描 Amazon FSx for NetApp ONTAP 配置，提供见解和建议，以帮助您实现卓越运营。</block>
-  <block id="72df52ed3a20abfa3d207dfbc53e2ae4" category="paragraph">未解析的指令，位于 &lt;stdin&gt; - include::https://raw.githubusercontent.com/NetAppDocs/workload-fsx-ontap/main/_include/improve-configurations-fsx.adoc[]</block>
   <block id="79e27ec6fe4e85288757fae779bab815" category="inline-link-macro">授予 _operations and remediation_ 权限</block>
   <block id="357d9dd76af15c8aaf8f09990a2846a9" category="list-text">您必须在 AWS 帐户中<block ref="6f74e2a9589a6666ba7fdb81dabfc5eb" category="inline-link-macro-rx"></block>。</block>
   <block id="a9d8fc136a7c1528e9a5743b9de2661a" category="inline-link-macro">使用链接连接到 FSx for ONTAP 文件系统</block>
-  <block id="bdcff0916b9de421b3f836810688eb67" category="list-text"><block ref="f06ee96e93460df1397f1b3b70044a3e" category="inline-link-macro-rx"></block> 以最全面地分析您的文件系统资源。</block>
   <block id="74bdd3d51d7fef35f3c1e1829b2c63fe" category="section-title">修复配置问题</block>
   <block id="4d39d4688820662a72b89ef0ab12f050" category="paragraph">您可以修复 FSx for ONTAP 文件系统或文件系统中选定卷的配置问题。您可以选择一个或多个要修复的配置。</block>
   <block id="cd375ffa56c1139e1dfd8d14cf3947db" category="paragraph">修复过程可能导致实例停机或服务中断。在修复配置问题之前，请仔细阅读每个建议。</block>
   <block id="342a19841e494c61bf9c06a5879eaffa" category="inline-image-macro">汉堡菜单图标用于导航到存储、EDA、AI、数据库、VMware 和管理等工作负载。</block>
   <block id="757a7ffb20a279d7239febb013141ad5" category="list-text">选择菜单 <block ref="d1917ed039a7bd34b3d1373e5ffc5ece" category="inline-image-macro-rx" type="image"></block> ，然后选择*存储*。</block>
   <block id="8c8656579a32ab7e80c68b10832337bb" category="list-text">从 Storage 菜单中，选择 *Well-architected*。</block>
-  <block id="4f5fc99db78476b3b87fbb795ab55b26" category="list-text">为任何配置选择 *View issues*。请务必仔细阅读建议。</block>
-  <block id="c9e425055996f71ecfc858708d926276" category="paragraph">该建议解释了未优化配置的最佳实践和潜在缺陷。</block>
   <block id="8e369a2580b67427ac856eea6e4e3eb6" category="list-text">选择以*修复*。</block>
   <block id="fe5f70c74405942514095d724e090b64" category="paragraph">当*查看并修复*为选项时，请选择要修复的受影响卷。</block>
   <block id="44642e2ce79e19a13d96c2540f6a27e3" category="list-text">查看对话框中显示的摘要和操作项目，了解解决此问题后会发生什么。某些操作可能导致实例停机或服务中断。</block>
@@ -540,7 +533,6 @@
   <block id="872eaae7deb6035c20f9bfe6deefd03d" category="list-text">如果您需要刷新登录凭据令牌，<block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> 菜单中还有 *Update Credentials* 选项。</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">使用此选项会提示您重新登录。请注意，这些帐户的令牌将在 90 天后过期。系统将发布通知以提醒您注意此事。</block>
   <block id="ac750267020c9b3c0e32de825d9b57fc" category="doc">2026年7月20日</block>
-  <block id="55cd06443095efee4eabc129ca3081e4" category="paragraph">permalink: whats-new.html keywords: what's new, features, new, release notes, enhancements, fixes, new features, well-architected, well-architected dashboard, amazon fsx for netapp ontap, fsx for ontap, cloud volumes ontap summary: "了解 NetApp Console 中 Well-Architected 控制面板的新功能。"--- = NetApp Console 中 Well-Architected 控制面板的新功能 :icons: font :imagesdir: ./media/</block>
   <block id="b718f3585030c0abec042a5bbf6d2e9f" category="paragraph">了解 Workload Factory 的 Well-architected 组件的新功能。</block>
   <block id="ada3d9e6c32ad89515ed748b05fc1156" category="paragraph">了解 NetApp Console 中 Well-Architected 控制面板的新功能。</block>
   <block id="c7c52ad889fc325f79c9eb4c7bf5f790" category="sidebar">NetApp Console 可帮助您维护可靠、安全、高效且经济高效的存储配置，使其与存储类型的精心设计的框架保持一致。精心设计的控制面板提供跨账户和区域的统一视图，帮助团队识别风险并确定其优先级，并支持针对特定要求的自定义规则。</block>
@@ -560,4 +552,25 @@
   <block id="b19bb0439c5d62764cdbd2b118e3f054" category="sidebar">配置分析</block>
   <block id="9123b467a31fc6f9863d4a33d8a6badc" category="sidebar">改进文件系统配置</block>
   <block id="461c5d5f90a73ed3aa1f4d477121a6cb" category="sidebar">改进系统配置</block>
+  <block id="2792cdd0b68bc0567866e5ad220d7b78" category="list-text"><block ref="2792cdd0b68bc0567866e5ad220d7b78" category="inline-link-macro-rx"></block></block>
+  <block id="aa8acd8bfdebf2540f62c36f9f09a75f" category="list-text"><block ref="aa8acd8bfdebf2540f62c36f9f09a75f" category="inline-link-macro-rx"></block></block>
+  <block id="2888fa977354ad1bf513fa2f17fdd7df" category="paragraph">Workload Factory 每天分析在 Amazon FSx for NetApp ONTAP 文件系统部署上运行的工作负载。该分析提供架构优化状态、洞察信息和建议。</block>
+  <block id="678b83ba882b41e4bae10f8e48f4a766" category="paragraph">每日分析完成后，配置在 Well-architected 仪表板中显示为"优化"或"未优化"。您可以找到总优化分数、按类别列出的配置问题以及配置问题和建议列表。您可以查看配置问题的建议。有些问题可以由 Workload Factory 自动修复，而其他问题则需要手动干预。在这种情况下，Workload Factory 会提供详细说明，以帮助您实施建议的更改。</block>
+  <block id="1fab3ff575faec37f5f5855ba6c44e9b" category="paragraph">您可以忽略不适用于您环境的配置分析。这样可以避免不必要的警报和不准确的优化结果。当您忽略特定配置分析时，Workload Factory 不将配置包含在总优化分数中。</block>
+  <block id="1ae45cc8915c23757127ca10c1cc4000" category="paragraph">Workload Factory 通过将持续评估与建议见解和补救措施相结合，将最佳实践应用于大型存储、数据库和 VMware 环境。在 Workload Factory 控制台中应用的自动修复可减少人为错误，确保统一管理，并保持整个工作负载基础架构的性能和可靠性。</block>
+  <block id="e3a12eeb93ddbad9936f64a12bb2990b" category="summary">Workload Factory 扫描 Amazon FSx for NetApp ONTAP 配置，提供见解和建议，帮助您实现卓越运营。</block>
+  <block id="55f2831e5ee9e4f5e3415852d7e413ac" category="paragraph">使用配置分析见解和建议，利用 Workload Factory 为您的 FSx for ONTAP 文件系统实施最佳实践。您可以轻松查看架构完善状态，了解配置问题，并采取行动改进任何未针对可靠性、安全性、效率、性能和成本进行优化的系统的架构。</block>
+  <block id="b2a386f5924b478e19e471dfee7196f1" category="paragraph">您还可以忽略不适用于存储环境的特定存储配置的分析，以避免不必要的警报和不准确的优化结果。</block>
+  <block id="04b3e1206245453c778ab6cffd793ea7" category="inline-link-macro">了解 Workload Factory 中的配置分析和良好架构状态。</block>
+  <block id="4aa06a8f25c52b419690e3e3f49c6ed5" category="paragraph"><block ref="4aa06a8f25c52b419690e3e3f49c6ed5" category="inline-link-macro-rx"></block></block>
+  <block id="7666c58e0bddac1cbe28645920551133" category="paragraph">Workload Factory 每天分析 Amazon FSx for NetApp ONTAP 文件系统部署配置。每日分析提供架构完善状态、见解和建议，以及自动修复配置问题的选项，使您的文件系统符合最佳实践。</block>
+  <block id="e7b9cb1cfdf339ec8cea0ee3bb7d6563" category="paragraph">链接或 Console 代理连接允许 Workload Factory 完成对文件系统的全面扫描，以查找性能、数据保护和配置问题。</block>
+  <block id="efa540b6730dc694889e9447404ff68a" category="paragraph">您可以选择查看文件系统配置问题的建议，并从 Workload Factory 控制台中的存储中解决这些问题。</block>
+  <block id="2fe18b688cc61d042ef62fb924155b95" category="paragraph">由于存储配置的要求各不相同，因此您可以忽略不适用于存储环境的特定配置的分析。这有助于您避免不必要的警报和不准确的优化结果。当特定配置分析被忽略时，该配置不会计入总体优化得分。</block>
+  <block id="947d9294996f8955f80ff03bc9f99324" category="inline-link-macro">安装控制台代理</block>
+  <block id="5b95edeaec9232eb644ac94feb361070" category="list-text"><block ref="516166149f9d9ca9d6d999bf3220e78e" category="inline-link-macro-rx"></block> 或 <block ref="f06ee96e93460df1397f1b3b70044a3e" category="inline-link-macro-rx"></block>，以对文件系统资源进行最全面的分析。</block>
+  <block id="4411c3b68fd3c93bc7694b361cc21eaf" category="paragraph">请务必仔细阅读建议。该建议解释了未优化配置的最佳实践和潜在缺陷。</block>
+  <block id="9d10d0bdf93932822ff5bc0f86ac6b28" category="list-text">在 Well-architected 仪表板中，*忽略的配置*。</block>
+  <block id="c37e06ff1ab011341411419a0b9135f1" category="summary">了解 NetApp Console 中精心设计的控制面板的新功能。</block>
+  <block id="6fb3d6accfe922bd3fef5d5bed978117" category="doc">NetApp Console 中 Well-Architected 控制面板的新增功能</block>
 </blocks>

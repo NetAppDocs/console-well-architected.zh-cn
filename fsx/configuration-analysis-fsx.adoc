@@ -23,6 +23,24 @@ NetApp Console 会定期分析存储系统配置，以确定是否存在任何�
 
 
 
+[[how-it-works]]
+== 工作原理
+
+Workload Factory 每天分析在 Amazon FSx for NetApp ONTAP 文件系统部署上运行的工作负载。该分析提供架构优化状态、洞察信息和建议。
+
+每日分析完成后，配置在 Well-architected 仪表板中显示为"优化"或"未优化"。您可以找到总优化分数、按类别列出的配置问题以及配置问题和建议列表。您可以查看配置问题的建议。有些问题可以由 Workload Factory 自动修复，而其他问题则需要手动干预。在这种情况下，Workload Factory 会提供详细说明，以帮助您实施建议的更改。
+
+您可以忽略不适用于您环境的配置分析。这样可以避免不必要的警报和不准确的优化结果。当您忽略特定配置分析时，Workload Factory 不将配置包含在总优化分数中。
+
+
+
+[[why-it-matters]]
+== 为什么很重要
+
+Workload Factory 通过将持续评估与建议见解和补救措施相结合，将最佳实践应用于大型存储、数据库和 VMware 环境。在 Workload Factory 控制台中应用的自动修复可减少人为错误，确保统一管理，并保持整个工作负载基础架构的性能和可靠性。
+
+
+
 [[analysis-requirements]]
 == 分析要求
 

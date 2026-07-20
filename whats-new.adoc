@@ -1,8 +1,14 @@
-= 2026年7月20日
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, well-architected, well-architected dashboard, amazon fsx for netapp ontap, fsx for ontap, cloud volumes ontap' 
+summary: 了解 NetApp Console 中精心设计的控制面板的新功能。 
+---
+= NetApp Console 中 Well-Architected 控制面板的新增功能
 :allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
 
-
-permalink: whats-new.html keywords: what's new, features, new, release notes, enhancements, fixes, new features, well-architected, well-architected dashboard, amazon fsx for netapp ontap, fsx for ontap, cloud volumes ontap summary: "了解 NetApp Console 中 Well-Architected 控制面板的新功能。"--- = NetApp Console 中 Well-Architected 控制面板的新功能 :icons: font :imagesdir: ./media/
 
 [role="lead"]
 了解 Workload Factory 的 Well-architected 组件的新功能。
@@ -25,8 +31,8 @@ NetApp Console 中的精心设计的控制面板提供了跨帐户和区域的�
 
 控制台中的架构完善控制面板可用于以下存储系统：
 
-* link:https://docs.netapp.com/us-en/console-well-architected/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
-* link:https://docs.netapp.com/us-en/console-well-architected/configuration-analysis-cvo.html["Microsoft Azure 中的 Cloud Volumes ONTAP"]
+* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
+* link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Microsoft Azure 中的 Cloud Volumes ONTAP"]
 
 
 
