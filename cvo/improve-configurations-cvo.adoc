@@ -1,0 +1,56 @@
+---
+sidebar: sidebar 
+permalink: cvo/improve-configurations-cvo.html 
+keywords: improve configurations, optimize configurations, implement best practices, well-architected file system, Cloud Volumes ONTAP, Microsoft Azure 
+summary: Workload factory 扫描 Cloud Volumes ONTAP 配置，提供见解和建议，帮助您实现卓越运营。 
+---
+= 实施架构良好的 Cloud Volumes ONTAP 系统配置
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+使用配置分析见解和建议，借助 NetApp 为运行在 Microsoft Azure 存储上的 Cloud Volumes ONTAP 系统实施最佳实践。您可以轻松查看架构完善状态，了解配置问题，并获得改进任何未针对可靠性、安全性、效率、性能和成本进行优化的系统架构的建议。
+
+link:configuration-analysis-cvo.html["了解配置分析和架构良好的状态。"]
+
+
+
+[[about-this-task]]
+== 关于此任务
+
+NetApp 每天分析 Microsoft Azure 中的 Cloud Volumes ONTAP 系统部署。每日分析提供架构完善状态，以及帮助您修复配置问题以使系统符合最佳实践的见解和建议。
+
+您可以查看系统配置问题的建议，而无需部署 Console 代理；但是，Console 代理连接允许 NetApp 对您的系统资源进行最全面的分析。
+
+日常分析完成后，仪表板将显示架构良好的资源总数、处于关键状态的资源数以及处于警告状态的资源数。配置按照架构完善的框架的支柱进行分类：可靠性、卓越运营、成本优化、性能效率和安全性。仪表板还包括一个表，其中列出了所有配置、这些配置的良好架构状态、严重性、类别、资源类型（卷或系统）、受影响的资源，以及在配置未优化时查看建议的选项。
+
+
+
+[[before-you-begin]]
+== 开始之前
+
+* 您必须link:https://console.netapp.com/add-working-environment/choose-type["添加 Cloud Volumes ONTAP 系统"]登录 NetApp Console，才能查看配置问题的良好架构状态和建议。
+* link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html["您应部署控制台代理"] 以对系统资源进行最全面的分析。
+
+
+
+
+[[view-recommendations-for-configuration-issues]]
+== 查看有关配置问题的建议
+
+您可以在每日分析完成后查看配置问题的建议。建议解释了未优化配置的最佳实践和潜在风险。您还可以下载建议的 CSV 文件。
+
+.步骤
+. 登录到 link:https://console.netapp.com/home["NetApp Console"^]。
+. 从 NetApp Console 菜单中，选择 *Workloads*，然后选择 *Well-architected*。
+. 在 Well-Architected 信息板中，为任意配置选择*查看*。
++
+（可选）选择 image:button_download.png["下载图标的屏幕截图"] 以下载所有配置建议的 CSV 文件。
+
+. 请查看此建议。
+
+
+.下一步
+修复配置问题以保持系统以最佳性能运行。

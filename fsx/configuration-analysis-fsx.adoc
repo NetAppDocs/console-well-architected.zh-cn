@@ -1,0 +1,168 @@
+---
+sidebar: sidebar 
+permalink: fsx/configuration-analysis-fsx.html 
+keywords: configuration issues, issues, improve, analyze, storage configuration, recommendation, recommendations 
+summary: NetApp Console 会定期分析存储系统配置，以确定是否存在任何配置问题。 
+---
+= Amazon FSx for NetApp ONTAP 的配置分析
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp Console 会定期分析存储系统配置，以确定是否存在任何配置问题。当发现问题时，NetApp Console 会向您展示问题所在，并说明需要进行哪些更改，以确保您的存储系统实现最佳性能、成本效益并符合最佳实践。
+
+主要功能包括：
+
+* 每日配置分析
+* 针对 NetApp ONTAP 存储系统和合作伙伴存储提供商的自动最佳实践验证
+* 主动可观察性
+* 从见解到行动
+
+
+
+
+[[analysis-requirements]]
+== 分析要求
+
+要进行完整的文件系统分析，必须执行以下操作：
+
+* link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html#agent-console-deploy["部署 NetApp Console agent"^] 或 link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["关联链接"^]。控制台代理和链接连接让 NetApp Console 分析所有文件系统配置，如数据保护和性能。
+* 在您的 AWS 账户中授予查看、规划和分析权限。
++
+link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["了解如何向 AWS 帐户授予权限"^]
+
+
+
+
+
+[[best-practices-and-recommendations-for-storage-workloads]]
+== 存储工作负载的最佳实践和建议
+
+Workload Factory 根据 ONTAP 最佳实践和 AWS Well-Architected Framework 评估存储配置。评估还提出了改进和修复建议。
+
+架构完善的分析将配置归类为框架的以下支柱：_reliability_、_security_、_operational excellence_、_cost optimization_ 和 _performance efficiency_。
+
+
+
+[[reliability]]
+=== 可靠性
+
+可靠性可确保工作负载正确、一致地执行其预期功能，即使在发生中断时也是如此。
+
+* *安排卷备份*
++
+备份卷有助于支持数据保留和合规性需求。使用卷备份为数据设置自动备份和保留。
+
+* *计划本地快照*
++
+安排本地快照以实现高效备份和快速恢复。快照是卷的即时时间点图像。
+
+* *跨区域复制*
++
+跨区域复制可确保将您的数据复制到另一个 AWS 区域，从而提高数据的持久性和可用性。Workload Factory 建议设置跨区域复制，以帮助灾难恢复和合规性。
+
+* *设置数据复制*
++
+为了扩展数据可靠性，可以将数据复制到同一区域或另一区域的 FSx for ONTAP 文件系统。设置数据复制以支持跨文件系统的迁移、灾难恢复和长期保留。
+
+* *提高 SSD 容量阈值*
++
+SSD 存储层容量不应超过 80% 的利用率。这可能会影响对容量池存储层的数据读取和写入，并影响文件系统的吞吐量。容量不足会导致数据卷变为只读。尝试写入新数据的服务也会失败。
+
+* *匹配标签以确保数据可靠性*
++
+源卷的快照策略标签和复制策略标签必须匹配，以确保数据可靠性。
+
+* *增加文件容量阈值*
++
+应提高文件容量阈值，以避免达到卷容量限制。低文件容量（索引节点）会阻止向卷写入其他数据。Workload Factory 建议将文件容量利用率保持在 80% 以下。需要可用的文件容量才能在卷中创建新文件。
+
+
+
+
+
+[[security]]
+=== 安全性
+
+安全强调通过风险评估和缓解策略保护数据、系统和资产。
+
+* *启用 ARP/AI*
++
+NetApp Autonomous Ransomware Protection with AI (ARP/AI) 有助于保护您的卷免受勒索软件威胁。Workload Factory 建议为所有卷启用 ARP/AI。
+
+* *未经授权访问卷*
++
+使用 iSCSI 服务应用程序数据的卷不应同时允许 NAS 访问。Workload Factory 建议限制 iSCSI 卷使用任何其他协议。
+
+
+
+
+
+[[operational-excellence]]
+=== 卓越运营
+
+卓越运营侧重于提供最佳架构和业务价值。
+
+* *启用自动容量管理*
++
+应启用自动容量管理，以定期确保 SSD 层不超过阈值。
+
+* *卷容量利用率阈值*
++
+Workload Factory 建议卷容量在持续的基础上不超过 80% 的利用率。这可能会影响对应用程序的数据读取和写入。卷容量增加可以是手动的，也可以使用卷自动增长功能自动增加。
+
+* *卷利用率接近满*
++
+当卷接近满容量时，Workload Factory 建议采取措施增加卷容量，以避免潜在的应用程序中断。
+
+* *缓存关系写入模式*
++
+为了获得最佳性能，Workload Factory 建议使用最适合您的工作负载的缓存关系写入模式。写入绕行模式为具有小文件的读取密集型工作负载提供更好的性能，而写回模式为具有大文件的写入密集型工作负载提供更好的性能。
+
+* *优化缓存卷大小*
++
+Workload Factory 建议在缓存卷上启用卷自动调整大小和清理，以保持最佳大小，并将缓存集中在热数据上，以实现最高效率。
+
+* *Storage VM 逻辑报告*
++
+Workload Factory 建议将存储虚拟机的默认报告设置设置为逻辑，以便更好地了解卷级别的存储使用情况。
+
+
+
+
+
+[[cost-optimization]]
+=== 成本优化
+
+成本优化可帮助您在保持低成本的同时为业务创造最大价值。
+
+* *通过冷数据分层优化 TCO*
++
+启用冷数据分层以降低 SSD 存储层利用率。Workload Factory 建议对每个卷应用分层策略。FSx for ONTAP 持续扫描数据，检测冷数据并将其无中断地移动到容量存储池层。
+
+* *启用存储效率*
++
+启用存储效率功能（数据缩减、压缩和重复数据删除），以优化存储利用率并降低 SSD 层成本。
+
+* *不必要的快照和备份删除*
++
+应删除不再需要的快照和备份，以降低成本。
+
+* *非活动块设备*
++
+在块设备未使用七天后，Workload Factory 建议归档块设备数据或删除未使用的块设备以降低成本。
+
+* *未充分利用的 SSD 容量*
++
+未充分利用的 SSD 容量层会产生不必要的成本。Workload Factory 建议减少 SSD 层容量，同时保持高于当前使用容量的 20% 可用空间缓冲区。缩减操作可能需要几个小时到几天，在此期间系统不支持其他文件系统操作。
+
+* *非活动 NAS 卷*
++
+配置分析可识别未主动使用的 NAS 卷，并建议删除或归档这些卷以降低成本。
+
+
+
+.下一步
+link:fsx/improve-configurations-fsx.html["实施架构良好的 FSx for ONTAP 文件系统配置"]

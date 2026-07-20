@@ -1,0 +1,139 @@
+---
+sidebar: sidebar 
+permalink: fsx/improve-configurations-fsx.html 
+keywords: improve configurations, optimize configurations, implement best practices, well-architected file system, Amazon FSx for NetApp ONTAP, FSx for ONTAP 
+summary: Workload factory 扫描 Amazon FSx for NetApp ONTAP 配置，提供见解和建议，以帮助您实现卓越运营。 
+---
+= 实施架构良好的 FSx for ONTAP 文件系统配置
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+未解析的指令，位于 <stdin> - include::https://raw.githubusercontent.com/NetAppDocs/workload-fsx-ontap/main/_include/improve-configurations-fsx.adoc[]
+
+
+
+[[before-you-begin]]
+== 开始之前
+
+* 您必须在 AWS 帐户中link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["授予 _operations and remediation_ 权限"^]。
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["使用链接连接到 FSx for ONTAP 文件系统"] 以最全面地分析您的文件系统资源。
+
+
+
+
+[[fix-a-configuration-issue]]
+== 修复配置问题
+
+您可以修复 FSx for ONTAP 文件系统或文件系统中选定卷的配置问题。您可以选择一个或多个要修复的配置。
+
+修复过程可能导致实例停机或服务中断。在修复配置问题之前，请仔细阅读每个建议。
+
+.步骤
+. 使用其中一个 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["控制台体验"^] 登录。
+. 选择菜单 image:workloads-menu-icon.png["汉堡菜单图标用于导航到存储、EDA、AI、数据库、VMware 和管理等工作负载。"] ，然后选择*存储*。
+. 从 Storage 菜单中，选择 *Well-architected*。
+. 为任何配置选择 *View issues*。请务必仔细阅读建议。
++
+该建议解释了未优化配置的最佳实践和潜在缺陷。
+
+. 选择以*修复*。
++
+当*查看并修复*为选项时，请选择要修复的受影响卷。
+
+. 查看对话框中显示的摘要和操作项目，了解解决此问题后会发生什么。某些操作可能导致实例停机或服务中断。
+. 选择*继续*以修复配置问题。
+
+
+.结果
+Workload Factory 启动修复此问题的流程。选择帐户设置菜单，然后选择 *Tracker* 以查看操作状态。
+
+
+
+[[dismiss-a-configuration-analysis]]
+== 忽略配置分析
+
+停止对 FSx for ONTAP 文件系统或选定卷的配置分析。您可以在需要时重新启动分析。
+
+[role="tabbed-block"]
+====
+.关闭文件系统的配置分析
+--
+.步骤
+. 使用其中一个 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["控制台体验"^] 登录。
+. 选择菜单 image:workloads-menu-icon.png["汉堡菜单图标用于导航到存储、EDA、AI、数据库、VMware 和管理等工作负载。"] ，然后选择*存储*。
+. 从 Storage 菜单中，选择 *Well-architected*。
+. 为任何配置选择 *View issues*。请务必仔细阅读建议。
++
+该建议解释了未优化配置的最佳实践和潜在缺陷。
+
+. 在"配置"下，确定不适用于您的环境的配置，然后选择 *关闭*。
+. 在 Dismiss configuration 对话框中，选择 *Dismiss* 停止配置分析。
+
+
+--
+.取消卷的配置分析
+--
+.步骤
+. 使用其中一个 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["控制台体验"^] 登录。
+. 选择菜单 image:workloads-menu-icon.png["汉堡菜单图标用于导航到存储、EDA、AI、数据库、VMware 和管理等工作负载。"] ，然后选择*存储*。
+. 从 Storage 菜单中，选择 *Well-architected*。
+. 在"配置"下，确定要为所选卷解除的配置，然后选择 *查看并修复*。
+. 确定要从配置分析中排除的卷。
++
+** 对于一个卷：选择操作菜单，然后选择 *关闭卷*。
+** 对于多个卷：选择卷，然后选择 *Dismiss* 旁边的 *Bulk action*。
+
+
+. 选择*Dismiss*以停止对配置的分析。
+. 在"关闭卷"对话框中，选择 *Dismiss* 确认。
+
+
+--
+====
+.结果
+文件系统或选定卷的配置分析停止。
+
+您可以随时重新激活分析。
+
+
+
+[[reactivate-a-dismissed-configuration-analysis]]
+== 重新激活已解除的配置分析
+
+随时重新激活已关闭的配置分析。您可以选择一个或多个要重新激活的配置。
+
+[role="tabbed-block"]
+====
+.重新激活文件系统的配置分析
+--
+.步骤
+. 使用其中一个 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["控制台体验"^] 登录。
+. 选择菜单 image:workloads-menu-icon.png["汉堡菜单图标用于导航到存储、EDA、AI、数据库、VMware 和管理等工作负载。"] ，然后选择*存储*。
+. 从 Storage 菜单中，选择 *Well-architected*。
+. 选择 *Dismissed configurations*。
+. 确定要重新激活的配置，然后选择*重新激活*。
+
+
+--
+.重新激活卷的配置分析
+--
+.步骤
+. 使用其中一个 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["控制台体验"^] 登录。
+. 选择菜单 image:workloads-menu-icon.png["汉堡菜单图标用于导航到存储、EDA、AI、数据库、VMware 和管理等工作负载。"] ，然后选择*存储*。
+. 从 Storage 菜单中，选择 *Well-architected*。
+. 选择 *Dismissed configurations*。
+. 通过配置分析确定要重新激活的卷。
++
+** 对于一个卷：选择操作菜单，然后选择 *重新激活卷*。
+** 对于多个卷：选择卷，然后选择"批量操作"旁边的 *Reactivate*。
+
+
+
+
+--
+====
+.结果
+系统重新激活配置分析。每天都会进行新的分析。

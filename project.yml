@@ -1,0 +1,48 @@
+---
+settings:
+  name: Well-architected dashboard
+  internal:
+    pdf_enabled: true
+    termcheck_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  release_notes_autogen:
+    release_notes_repo: console-relnotes
+  langs: zh-cn,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-tw
+sidebar:
+  entries:
+  - title: 开始使用
+    entries:
+    - title: 新增功能
+      url: "/whats-new.html"
+    - title: 了解架构完善的控制面板
+      url: "/learn-well-architected-dashboard.html"
+  - title: 支持的产品
+    entries:
+    - title: Amazon FSx for NetApp ONTAP
+      entries:
+      - title: 配置分析
+        url: "/fsx/configuration-analysis-fsx.html"
+      - title: 改进文件系统配置
+        url: "/fsx/improve-configurations-fsx.html"
+    - title: Cloud Volumes ONTAP
+      entries:
+      - title: 配置分析
+        url: "/cvo/configuration-analysis-cvo.html"
+      - title: 改进系统配置
+        url: "/cvo/improve-configurations-cvo.html"
+  - title: 建立自己的规则
+    entries:
+    - title: 了解自定义规则
+      url: "/learn-custom-rules.html"
+    - title: 创建自定义规则
+      url: "/create-custom-rule.html"
+    - title: 管理自定义规则
+      url: "/manage-custom-rules.html"
+  - title: 法律声明
+    url: "/legal-notices.html"
+product-family:
+  name: NetApp Console
+  repo: console-family

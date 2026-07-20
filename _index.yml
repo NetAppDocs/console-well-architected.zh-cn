@@ -1,0 +1,42 @@
+---
+indexpage:
+  title: NetApp Console 中的架构良好仪表板
+  summary: NetApp Console 可帮助您维护和运行可靠、安全、高效且具有成本效益的配置，这些配置与您所使用的存储类型的良好架构框架保持一致。
+  keywords: amazon, fsx, cloud volumes ontap, microsoft azure, netapp, ontap, well-architected
+    framework, NetApp Console
+  lead: NetApp Console 可帮助您维护可靠、安全、高效且经济高效的存储配置，使其与存储类型的精心设计的框架保持一致。精心设计的控制面板提供跨账户和区域的统一视图，帮助团队识别风险并确定其优先级，并支持针对特定要求的自定义规则。
+  tiles:
+  - title: 开始使用
+    links:
+    - title: 发行说明
+      url: "/whats-new.html"
+    - title: 了解架构完善的控制面板
+      url: "/learn-well-architected-dashboard.html"
+  - title: 支持的产品
+    links:
+    - title: Amazon FSx for NetApp ONTAP
+      url: "/fsx/configuration-analysis-fsx.html"
+    - title: Cloud Volumes ONTAP
+      url: "/cvo/configuration-analysis-cvo.html"
+  - title: 建立自己的规则
+    links:
+    - title: 了解自定义规则
+      url: "/learn-custom-rules.html"
+    - title: 创建自定义规则
+      url: "/create-custom-rule.html"
+    - title: 管理自定义规则
+      url: "/manage-custom-rules.html"
+  - title: 知识和支持
+    links:
+    - title: 注册以获得支持
+      url: "/register-support.html"
+    - title: 获取帮助
+      url: "/get-help.html"
+  - title: 博客和社区
+    links:
+    - title: NetApp Console
+      url: https://www.netapp.com/console
+    - title: NetApp Data Services
+      url: https://www.netapp.com/data-services/
+    - title: NetApp 社区
+      url: https://community.netapp.com/

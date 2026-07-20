@@ -1,0 +1,39 @@
+= 2026年7月20日
+:allow-uri-read: 
+
+
+permalink: whats-new.html keywords: what's new, features, new, release notes, enhancements, fixes, new features, well-architected, well-architected dashboard, amazon fsx for netapp ontap, fsx for ontap, cloud volumes ontap summary: "了解 NetApp Console 中 Well-Architected 控制面板的新功能。"--- = NetApp Console 中 Well-Architected 控制面板的新功能 :icons: font :imagesdir: ./media/
+
+[role="lead"]
+了解 Workload Factory 的 Well-architected 组件的新功能。
+
+了解 NetApp Console 中 Well-Architected 控制面板的新功能。
+
+
+
+[[20-july-2026]]
+== 2026年7月20日
+
+
+
+[[introducing-the-well-architected-dashboard-in-netapp-console]]
+=== 隆重推出 NetApp Console 中精心设计的控制面板
+
+NetApp Console 中的精心设计的控制面板提供了跨帐户和区域的存储系统和配置的单一视图。控制面板提供见解和建议，以帮助您实现卓越运营。您可以查看配置的良好架构状态、由您使用的存储类型的良好架构框架的支柱组织的配置问题以及配置问题和建议列表。
+
+详细了解 link:https://docs.netapp.com/us-en/console-well-architected/learn-well-architected-dashboard.html["精心设计的仪表板"]。
+
+控制台中的架构完善控制面板可用于以下存储系统：
+
+* link:https://docs.netapp.com/us-en/console-well-architected/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
+* link:https://docs.netapp.com/us-en/console-well-architected/configuration-analysis-cvo.html["Microsoft Azure 中的 Cloud Volumes ONTAP"]
+
+
+
+
+[[build-your-own-custom-rules]]
+=== 创建自己的自定义规则
+
+以通俗易懂的语言编写自定义规则，以确保您的系统遵循组织的标准和 NetApp 最佳实践。通过试运行测试规则，然后安排它们在您的环境中运行。
+
+https://docs.netapp.com/us-en/workload-well-architected/learn-custom-rules.html["详细了解自定义规则"^]
