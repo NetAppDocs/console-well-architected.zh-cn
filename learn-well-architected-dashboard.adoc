@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: learn-well-architected-dashboard.html 
 keywords: well-architected, best practices, well-architected system, best practices, well-architected framework, well-architected configurations, system management, system optimization, system configuration, system analysis 
-summary: NetApp Console 扫描系统配置的可靠性、安全性、卓越运营、成本优化和性能效率，提供见解和建议，帮助您实现卓越运营。 
+summary: NetApp Console 中的架构完善仪表板可扫描系统配置，以评估可靠性、安全性、卓越运营、成本优化和性能效率，并提供见解和建议，帮助您实现卓越运营。 
 ---
 = 了解 NetApp Console 中的架构完善仪表板
 :allow-uri-read: 
@@ -11,32 +11,32 @@ summary: NetApp Console 扫描系统配置的可靠性、安全性、卓越运�
 
 
 [role="lead"]
-NetApp Console 可帮助您维护和操作可靠、安全、高效且经济高效的配置，这些配置与您所使用的存储类型的精心架构框架保持一致。精心架构的控制面板提供跨账户和区域的统一视图，帮助团队识别风险并确定其优先级，并支持针对特定要求的自定义规则。对存储系统配置进行每日自动扫描，可提供见解和建议，帮助您优化存储环境。
+NetApp Console 中的精心设计的仪表板可帮助您维护和操作可靠、安全、高效且经济高效的配置，这些配置与您使用的存储类型的精心设计的框架保持一致。该仪表板提供跨账户和区域的统一视图，帮助团队识别风险并确定其优先级，并支持针对特定要求的自定义规则。对存储系统配置的每日自动扫描可提供见解和建议，以帮助您优化存储环境。
 
 
 
 [[how-it-works]]
 == 工作原理
 
-NetApp Console 每天分析您的配置。该分析提供架构优化状态、洞察信息和建议。
+精心设计的仪表板每天都会分析您的配置。该分析提供了精心设计的状态、见解和建议。
 
-每日分析完成后，配置在部署的精心设计的仪表板中显示为"优化"或"未优化"。您可以找到总优化分数、按类别列出的配置问题以及配置问题和建议列表。您可以查看配置问题的建议。某些问题可以由 NetApp Console 自动修复，而其他问题则需要手动干预。在此情况下，NetApp Console 会提供详细说明，以帮助您实施建议的更改。
+每日分析完成后，配置在架构良好的仪表板中显示为"优化"或"未优化"。您可以找到总优化分数、按类别列出的配置问题以及配置问题和建议列表。您可以查看配置问题的建议。某些问题可以通过架构良好的仪表板自动修复，而其他问题则需要手动干预。在此情况下，架构良好的仪表板会提供详细说明，以帮助您实施建议的更改。
 
-您可以忽略不适用于您环境的配置分析。这样可以避免不必要的警报和不准确的优化结果。当您忽略特定配置分析时，NetApp Console 不会将该配置纳入总体优化评分中。
+您可以忽略不适用于您环境的配置分析。这样可以避免不必要的警报和不准确的优化结果。当您忽略特定配置分析时，架构完善的仪表板不会将该配置计入总优化分数。
 
 
 
 [[why-it-matters]]
 == 为什么很重要
 
-NetApp Console 通过将持续评估与建议见解和补救措施相结合，将最佳实践应用于大型存储、数据库和 VMware 环境。在 NetApp Console 中应用的自动修复可减少人为错误，确保统一管理，并保持整个系统基础架构的性能和可靠性。
+NetApp Console 中的精心设计仪表板通过将持续评估与建议见解和补救措施相结合，将最佳实践应用于大型存储、数据库和 VMware 环境。在精心设计的仪表板中应用的自动补救措施可减少人为错误，确保统一管理，并保持整个系统基础架构的性能和可靠性。
 
 
 
 [[supported-storage-systems]]
 == 支持的存储系统
 
-控制台中精心设计的仪表板支持以下存储系统：
+Console 中架构完善的信息板支持以下存储系统：
 
 * Amazon FSx for NetApp ONTAP
 * Microsoft Azure 中的 Cloud Volumes ONTAP

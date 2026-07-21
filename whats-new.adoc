@@ -1,19 +1,17 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, well-architected, well-architected dashboard, amazon fsx for netapp ontap, fsx for ontap, cloud volumes ontap' 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, well-architected, well-architected dashboard, amazon fsx for netapp ontap, fsx for ontap, cloud volumes ontap, microsoft azure' 
 summary: 了解 NetApp Console 中精心设计的控制面板的新功能。 
 ---
-= NetApp Console 中 Well-Architected 控制面板的新增功能
+= NetApp Console 中精心设计的控制面板的新增功能
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
 
 
 [role="lead"]
-了解 Workload Factory 的 Well-architected 组件的新功能。
-
-了解 NetApp Console 中 Well-Architected 控制面板的新功能。
+了解 NetApp Console 中精心设计的控制面板的新功能。
 
 
 
@@ -42,4 +40,4 @@ NetApp Console 中的精心设计的控制面板提供了跨帐户和区域的�
 
 以通俗易懂的语言编写自定义规则，以确保您的系统遵循组织的标准和 NetApp 最佳实践。通过试运行测试规则，然后安排它们在您的环境中运行。
 
-https://docs.netapp.com/us-en/workload-well-architected/learn-custom-rules.html["详细了解自定义规则"^]
+https://docs.netapp.com/us-en/console-well-architected/learn-custom-rules.html["详细了解自定义规则"]

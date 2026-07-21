@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: fsx/improve-configurations-fsx.html 
 keywords: improve configurations, optimize configurations, implement best practices, well-architected file system, Amazon FSx for NetApp ONTAP, FSx for ONTAP 
-summary: Workload Factory 扫描 Amazon FSx for NetApp ONTAP 配置，提供见解和建议，帮助您实现卓越运营。 
+summary: 架构完善的仪表板可扫描 Amazon FSx for NetApp ONTAP 配置，为您提供见解和建议，帮助您实现卓越运营。 
 ---
 = 实施架构良好的 FSx for ONTAP 文件系统配置
 :allow-uri-read: 
@@ -11,24 +11,22 @@ summary: Workload Factory 扫描 Amazon FSx for NetApp ONTAP 配置，提供见�
 
 
 [role="lead"]
-使用配置分析见解和建议，利用 Workload Factory 为您的 FSx for ONTAP 文件系统实施最佳实践。您可以轻松查看架构完善状态，了解配置问题，并采取行动改进任何未针对可靠性、安全性、效率、性能和成本进行优化的系统的架构。
+使用配置分析见解和建议，利用NetApp为您的 FSx for ONTAP 文件系统实施最佳实践。您可以轻松查看架构完善的状态，了解配置问题，采取行动改进任何未在可靠性、安全性、效率、性能和成本方面进行优化的系统的架构。
 
 您还可以忽略不适用于存储环境的特定存储配置的分析，以避免不必要的警报和不准确的优化结果。
 
-link:configuration-analysis.html["了解 Workload Factory 中的配置分析和良好架构状态。"]
+link:configuration-analysis-fsx.html["了解配置分析和架构良好的状态。"]
 
 
 
 [[about-this-task]]
 == 关于此任务
 
-Workload Factory 每天分析 Amazon FSx for NetApp ONTAP 文件系统部署配置。每日分析提供架构完善状态、见解和建议，以及自动修复配置问题的选项，使您的文件系统符合最佳实践。
+良好架构仪表板每天分析 Amazon FSx for NetApp ONTAP 文件系统部署配置。每日分析提供良好架构状态、见解和建议。您可以自动修复配置问题以满足最佳实践要求。
 
-链接或 Console 代理连接允许 Workload Factory 完成对文件系统的全面扫描，以查找性能、数据保护和配置问题。
+链接或控制台代理连接允许 NetApp Console 中架构良好的仪表板对您的文件系统进行全面扫描，以查找性能、数据保护和配置方面的问题。这可确保您收到准确的见解和建议，以优化您的 FSx for ONTAP 文件系统。
 
-您可以选择查看文件系统配置问题的建议，并从 Workload Factory 控制台中的存储中解决这些问题。
-
-由于存储配置的要求各不相同，因此您可以忽略不适用于存储环境的特定配置的分析。这有助于您避免不必要的警报和不准确的优化结果。当特定配置分析被忽略时，该配置不会计入总体优化得分。
+存储配置要求各不相同。您可以忽略不适用于您的存储环境的特定配置的分析。这有助于您避免不必要的警报和不准确的优化结果。
 
 
 
@@ -46,7 +44,7 @@ Workload Factory 每天分析 Amazon FSx for NetApp ONTAP 文件系统部署配�
 
 您可以修复 FSx for ONTAP 文件系统或文件系统中选定卷的配置问题。您可以选择一个或多个要修复的配置。
 
-修复过程可能导致实例停机或服务中断。在修复配置问题之前，请仔细阅读每个建议。
+修复配置问题可能会导致实例停机或服务中断。在修复配置问题之前，请仔细阅读每个建议。
 
 .步骤
 . 登录到 link:https://console.netapp.com/home["NetApp Console"^]。
@@ -59,7 +57,7 @@ Workload Factory 每天分析 Amazon FSx for NetApp ONTAP 文件系统部署配�
 +
 当*查看并修复*为选项时，请选择要修复的受影响卷。
 
-. 查看对话框中显示的摘要和操作项目，了解解决此问题后会发生什么。某些操作可能导致实例停机或服务中断。
+. 查看对话框中的摘要和操作项目，了解解决此问题后会发生什么。某些操作可能导致实例停机或服务中断。
 . 选择*继续*以修复配置问题。
 
 
@@ -122,7 +120,7 @@ Workload Factory 启动修复此问题的流程。选择帐户设置菜单，然
 .步骤
 . 登录到 link:https://console.netapp.com/home["NetApp Console"^]。
 . 从 NetApp Console 菜单中，选择 *Workloads*，然后选择 *Well-architected*。
-. 在 Well-architected 仪表板中，*忽略的配置*。
+. 在 Well-architected 仪表板中，选择 *Dismissed configurations*。
 . 确定要重新激活的配置，然后选择*重新激活*。
 
 
@@ -145,4 +143,4 @@ Workload Factory 启动修复此问题的流程。选择帐户设置菜单，然
 --
 ====
 .结果
-系统重新激活配置分析。每天都会进行新的分析。
+配置分析重新激活。Workload Factory 每天运行新的分析。

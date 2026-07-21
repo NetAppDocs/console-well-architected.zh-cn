@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: cvo/improve-configurations-cvo.html 
 keywords: improve configurations, optimize configurations, implement best practices, well-architected file system, Cloud Volumes ONTAP, Microsoft Azure 
-summary: Workload factory 扫描 Cloud Volumes ONTAP 配置，提供见解和建议，帮助您实现卓越运营。 
+summary: 精心设计的仪表板扫描 Cloud Volumes ONTAP 配置，提供见解和建议，帮助您实现卓越运营。 
 ---
 = 实施架构良好的 Cloud Volumes ONTAP 系统配置
 :allow-uri-read: 
@@ -20,11 +20,11 @@ link:configuration-analysis-cvo.html["了解配置分析和架构良好的状态
 [[about-this-task]]
 == 关于此任务
 
-NetApp 每天分析 Microsoft Azure 中的 Cloud Volumes ONTAP 系统部署。每日分析提供架构完善状态，以及帮助您修复配置问题以使系统符合最佳实践的见解和建议。
+精心设计的仪表板每天分析 Cloud Volumes ONTAP 系统在 Microsoft Azure 上的部署配置。每日分析提供精心设计的状态、见解和建议。
 
-您可以查看系统配置问题的建议，而无需部署 Console 代理；但是，Console 代理连接允许 NetApp 对您的系统资源进行最全面的分析。
+链接或控制台代理连接允许 NetApp Console 中架构良好的仪表板对您的 Cloud Volumes ONTAP 系统进行全面扫描，以查找性能、数据保护和配置方面的问题。这可确保您收到准确的见解和建议，以优化您的 Cloud Volumes ONTAP 系统。
 
-日常分析完成后，仪表板将显示架构良好的资源总数、处于关键状态的资源数以及处于警告状态的资源数。配置按照架构完善的框架的支柱进行分类：可靠性、卓越运营、成本优化、性能效率和安全性。仪表板还包括一个表，其中列出了所有配置、这些配置的良好架构状态、严重性、类别、资源类型（卷或系统）、受影响的资源，以及在配置未优化时查看建议的选项。
+存储配置要求各不相同。您可以忽略不适用于您的存储环境的特定配置的分析。这有助于您避免不必要的警报和不准确的优化结果。
 
 
 

@@ -1,10 +1,10 @@
 ---
 indexpage:
   title: NetApp Console 中的架构良好仪表板
-  summary: NetApp Console 可帮助您维护和运行可靠、安全、高效且具有成本效益的配置，这些配置与您所使用的存储类型的良好架构框架保持一致。
+  summary: NetApp Console 中的架构完善仪表板可帮助您维护和操作可靠、安全、高效且具有成本效益的配置，这些配置与您所使用的存储类型的架构完善框架保持一致。
   keywords: amazon, fsx, cloud volumes ontap, microsoft azure, netapp, ontap, well-architected
     framework, NetApp Console
-  lead: NetApp Console 可帮助您维护可靠、安全、高效且经济高效的存储配置，使其与存储类型的精心设计的框架保持一致。精心设计的控制面板提供跨账户和区域的统一视图，帮助团队识别风险并确定其优先级，并支持针对特定要求的自定义规则。
+  lead: NetApp Console 中的精心设计的控制面板可帮助您维护可靠、安全、高效且经济高效的存储配置，使其与存储类型的精心设计的框架保持一致。精心设计的控制面板提供跨账户和区域的统一视图，帮助团队识别风险并确定其优先级，并支持针对特定要求的自定义规则。
   tiles:
   - title: 开始使用
     links:

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: cvo/configuration-analysis-cvo.html 
 keywords: Cloud Volumes ONTAP, configuration issues, issues, improve, analyze, storage configuration, recommendation, recommendations 
-summary: NetApp Console 每天分析存储系统配置，以确定是否存在任何配置问题。 
+summary: NetApp Console 中的架构完善仪表板每天分析 Cloud Volumes ONTAP 系统配置，以确定是否存在任何配置问题。 
 ---
 = Cloud Volumes ONTAP 的配置分析
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: NetApp Console 每天分析存储系统配置，以确定是否存在�
 
 
 [role="lead"]
-NetApp Console 会定期分析存储系统配置，以确定是否存在任何配置问题。发现问题时，Console 会向您显示问题所在，并解释需要更改的内容，以确保您的存储系统实现最佳性能、成本效益并符合最佳实践。
+NetApp Console 中的架构完善仪表板会定期分析存储系统配置，以确定您的 Cloud Volumes ONTAP 系统是否存在任何配置问题。发现问题时，仪表板会向您显示问题所在，并说明需要进行哪些更改，以确保您的存储系统实现最佳性能、成本效益并符合最佳实践。
 
 主要功能包括：
 
@@ -26,14 +26,14 @@ NetApp Console 会定期分析存储系统配置，以确定是否存在任何�
 [[analysis-requirements]]
 == 分析要求
 
-要进行完整的 Cloud Volumes ONTAP 系统分析，您必须link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html#agent-console-deploy["部署 NetApp Console agent"^]。Console 代理连接使 Console 能够分析所有 Cloud Volumes ONTAP 系统配置，例如数据保护和性能。
+要进行完整的 Cloud Volumes ONTAP 系统分析，您必须 link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html#agent-console-deploy["部署 NetApp Console agent"^] 在系统与 NetApp Console 之间建立连接。
 
 
 
 [[best-practices-and-recommendations-for-cloud-volumes-ontap-systems]]
 == Cloud Volumes ONTAP 系统的最佳实践和建议
 
-NetApp 评估存储配置，以提供 ONTAP 配置最佳实践的深入视图，并符合 Azure Well-Architected Framework。评估还提出了改进和修复建议。
+架构良好的仪表板评估存储配置，以提供 ONTAP 配置最佳实践的深入视图，并符合 Azure Well-Architected Framework。该评估还提出了改进和修复建议。
 
 架构完善的分析将配置归类为框架的以下支柱：_reliability_、_security_、_operational excellence_、_cost optimization_ 和 _performance efficiency_。
 
@@ -42,7 +42,7 @@ NetApp 评估存储配置，以提供 ONTAP 配置最佳实践的深入视图，
 [[reliability]]
 === 可靠性
 
-可靠性可确保工作负载正确、一致地执行其预期功能，即使在发生中断时也是如此。
+可靠性可确保工作负载正确一致地执行其预期功能，即使在中断期间也是如此。
 
 * *计划本地快照*
 +
@@ -50,7 +50,7 @@ NetApp 评估存储配置，以提供 ONTAP 配置最佳实践的深入视图，
 
 * *SSD 容量阈值*
 +
-SSD 存储层容量持续使用率不应超过 80%。超过此阈值可能会降低吞吐量，并导致数据卷变为只读，从而导致写入操作失败。
+SSD 存储层容量不应持续超过 80% 的利用率。超过此阈值可能会降低吞吐量，使数据卷变为只读，并导致写入操作失败。
 
 
 
@@ -101,7 +101,7 @@ NetApp 建议在缓存卷上启用卷自动调整大小和清理，以保持最�
 
 * *识别未充分利用的固态硬盘容量*
 +
-未充分利用的 SSD 容量层可能会产生不必要的成本。NetApp 建议减少 SSD 层容量，同时保持高于当前已用容量 20% 的可用空间缓冲区。缩减操作可能需要几个小时到几天，在此期间系统不支持其他文件系统操作。
+未充分利用的 SSD 容量层可能会产生不必要的成本。NetApp 建议减少 SSD 层容量，同时保持高于当前已用容量 20% 的可用空间缓冲区。减少操作需要几个小时到几天，在此期间不支持其他系统操作。
 
 * *数据分层策略*
 +

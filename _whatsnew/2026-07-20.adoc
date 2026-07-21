@@ -24,4 +24,4 @@ NetApp Console 中的精心设计的控制面板提供了跨帐户和区域的�
 
 以通俗易懂的语言编写自定义规则，以确保您的系统遵循组织的标准和 NetApp 最佳实践。通过试运行测试规则，然后安排它们在您的环境中运行。
 
-https://docs.netapp.com/us-en/workload-well-architected/learn-custom-rules.html["详细了解自定义规则"^]
+https://docs.netapp.com/us-en/console-well-architected/learn-custom-rules.html["详细了解自定义规则"]
