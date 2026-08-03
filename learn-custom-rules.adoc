@@ -26,6 +26,9 @@ summary: 了解如何定义和管理您自己的架构规则，以在实施组�
 自定义规则可帮助您执行组织的标准、风险限制和运营要求——这些是通用供应商规则可能无法完全涵盖的内容。
 
 
+NOTE: 如果您的帐户管理员已关闭 AI 功能，则规则生成器将不可用，您将无法创建自定义规则。link:https://docs.netapp.com/us-en/workload-setup-admin/manage-genai-features.html["了解如何管理 AI 功能"^]。
+
+
 
 [[how-custom-rules-work]]
 == 自定义规则的工作原理

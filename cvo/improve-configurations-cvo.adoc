@@ -52,5 +52,111 @@ link:configuration-analysis-cvo.html["了解配置分析和架构良好的状态
 . 请查看此建议。
 
 
-.下一步
-修复配置问题以保持系统以最佳性能运行。
+
+
+[[fix-a-configuration-issue]]
+== 修复配置问题
+
+您可以修复 Cloud Volumes ONTAP 系统或文件系统中选定卷的配置问题。您可以选择一个或多个要修复的配置。
+
+修复过程可能导致实例停机或服务中断。在修复配置问题之前，请仔细阅读每个建议。
+
+.步骤
+. 登录到 link:https://console.netapp.com/home["NetApp Console"^]。
+. 从 NetApp Console 菜单中，选择 *Workloads*，然后选择 *Well-architected*。
+. 在 Well-Architected 信息板中，为任意配置选择*查看*。
++
+请务必仔细阅读建议。该建议解释了未优化配置的最佳实践和潜在缺陷。
+
+. 选择以*修复*。
++
+当*查看并修复*为选项时，请选择要修复的受影响卷。
+
+. 查看对话框中显示的摘要和操作项目，了解解决此问题后会发生什么。某些操作可能导致实例停机或服务中断。
+. 选择*继续*以修复配置问题。
+
+
+.结果
+Workload Factory 启动修复此问题的流程。选择帐户设置菜单，然后选择 *Tracker* 以查看操作状态。
+
+
+
+[[dismiss-a-configuration-analysis]]
+== 忽略配置分析
+
+停止 Cloud Volumes ONTAP 系统或选定卷的配置分析。您可以在需要时重新启动分析。
+
+[role="tabbed-block"]
+====
+.关闭文件系统的配置分析
+--
+.步骤
+. 登录到 link:https://console.netapp.com/home["NetApp Console"^]。
+. 从 NetApp Console 菜单中，选择 *Workloads*，然后选择 *Well-architected*。
+. 在 Well-Architected 信息板中，为任意配置选择*查看*。
+. 在"配置"下，确定不适用于您的环境的配置，然后选择 *关闭*。
+. 在 Dismiss configuration 对话框中，选择 *Dismiss* 停止配置分析。
+
+
+--
+.取消卷的配置分析
+--
+.步骤
+. 登录到 link:https://console.netapp.com/home["NetApp Console"^]。
+. 从 NetApp Console 菜单中，选择 *Workloads*，然后选择 *Well-architected*。
+. 在 Well-Architected 信息板中，为任意配置选择*查看*。
+. 在"配置"下，确定要为所选卷解除的配置，然后选择 *查看并修复*。
+. 确定要从配置分析中排除的卷。
++
+** 对于一个卷：选择操作菜单，然后选择 *关闭卷*。
+** 对于多个卷：选择卷，然后选择 *Dismiss* 旁边的 *Bulk action*。
+
+
+. 选择*Dismiss*以停止对配置的分析。
+. 在"关闭卷"对话框中，选择 *Dismiss* 确认。
+
+
+--
+====
+.结果
+文件系统或选定卷的配置分析停止。
+
+您可以随时重新激活分析。
+
+
+
+[[reactivate-a-dismissed-configuration-analysis]]
+== 重新激活已解除的配置分析
+
+随时重新激活 Cloud Volumes ONTAP 系统的已解除配置分析。您可以选择一个或多个要重新激活的配置。
+
+[role="tabbed-block"]
+====
+.重新激活文件系统的配置分析
+--
+.步骤
+. 登录到 link:https://console.netapp.com/home["NetApp Console"^]。
+. 从 NetApp Console 菜单中，选择 *Workloads*，然后选择 *Well-architected*。
+. 选择 *Dismissed configurations*。
+. 确定要重新激活的配置，然后选择*重新激活*。
+
+
+--
+.重新激活卷的配置分析
+--
+.步骤
+. 登录到 link:https://console.netapp.com/home["NetApp Console"^]。
+. 从 NetApp Console 菜单中，选择 *Workloads*，然后选择 *Well-architected*。
+. 选择 *Dismissed configurations*。
+. 通过配置分析确定要重新激活的卷。
++
+** 对于一个卷：选择操作菜单，然后选择 *重新激活卷*。
+** 对于多个卷：选择卷，然后选择"批量操作"旁边的 *Reactivate*。
+
+
+
+
+--
+====
+.结果
+系统重新激活配置分析。每天都会进行新的分析。

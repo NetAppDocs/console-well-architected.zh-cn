@@ -94,27 +94,17 @@
   <block id="ffd9fc00ab43b8283346c6266e00d684" category="paragraph">架构完善的分析将配置归类为框架的以下支柱：_reliability_、_security_、_operational excellence_、_cost optimization_ 和 _performance efficiency_。</block>
   <block id="820b8f74ad843d1574106ec4cadfc07e" category="section-title">可靠性</block>
   <block id="32293fdcb7dff0798e6d06da4b108ce6" category="paragraph">可靠性可确保工作负载正确、一致地执行其预期功能，即使在发生中断时也是如此。</block>
-  <block id="277088f7a0bc1d2b0023dc08b1d30e37" category="list-text">*计划本地快照*</block>
   <block id="ce36269ae95cd0ab7422d78bb843b720" category="paragraph">安排本地快照以实现高效备份和快速恢复。快照是卷的即时时间点图像。</block>
-  <block id="eb995e3e26a9ce43e4cb513af9782398" category="list-text">*SSD 容量阈值*</block>
   <block id="2fae32629d4ef4fc6341f1751b405e45" category="section-title">安全性</block>
   <block id="7d7265a6929882bb433fc74e8bee871a" category="paragraph">安全强调通过风险评估和缓解策略保护数据、系统和资产。</block>
   <block id="d08117d717007eeb4d6273695d9a7725" category="list-text">*基于 AI 的自主勒索软件防护 (ARP/AI)*</block>
   <block id="167fce45da752e074139dbfd85f1d96d" category="paragraph">NetApp Autonomous Ransomware Protection with AI (ARP/AI) 有助于增强网络弹性，并保护您的卷免受勒索软件威胁。我们建议为所有卷启用 ARP/AI。</block>
   <block id="17d2a91a4f3c01de4c2f05b2242e49d3" category="section-title">卓越运营</block>
   <block id="84c2d06d655e822b38b222df9c0aa965" category="paragraph">卓越运营的重点是提供最佳架构和业务价值。</block>
-  <block id="32438b829cdc61174e9727896ad00733" category="list-text">*卷容量利用率阈值*</block>
-  <block id="e973d533a0ae133a86d3a32d9c71df3f" category="paragraph">NetApp 建议卷容量的持续利用率不超过 80%。这可能会影响应用程序的数据读写。卷容量可以手动增加，也可以使用卷自动扩展功能自动增加。</block>
-  <block id="dea8be5f351d7ba412ea10951c1fe16c" category="list-text">*缓存关系写入模式*</block>
-  <block id="172f50b41b5736d316b29512e1c1cc01" category="list-text">*ONTAP 缓存卷大小*</block>
-  <block id="c9eaece9ad2e9f2b182ab193795510eb" category="paragraph">NetApp 建议在缓存卷上启用卷自动调整大小和清理，以保持最佳大小，并将缓存集中在频繁访问的（热）数据上，以实现最高效率。</block>
   <block id="7f14df7d96b168d75780c47437a63021" category="list-text">*ONTAP 版本合规性*</block>
   <block id="3bbb5a399ebdfb8d2d4a8a5c7bafb3fb" category="paragraph">升级到最新的 ONTAP 版本，以实现完全兼容性、获得支持并访问新功能。</block>
   <block id="a39ae09f8be4327fc176cfeb76a0e366" category="section-title">成本优化</block>
   <block id="394c926099d3d2cf7e0d7477f17faf38" category="paragraph">成本优化可帮助您在保持低成本的同时为业务创造最大价值。</block>
-  <block id="7a9a8f4f357fd479616721650f578eab" category="list-text">*识别未充分利用的固态硬盘容量*</block>
-  <block id="d8789f9e1c2f22ea67573de6c6a2a782" category="list-text">*数据分层策略*</block>
-  <block id="3f13a901b4c6ed36f4bf5c5510e9ed24" category="paragraph">启用冷数据分层，将冷数据从 SSD 存储层移动到成本较低的存储。Azure Blob Storage 用作非活动数据的容量层。</block>
   <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">下一步</block>
   <block id="12959707639320f789d4bb4fbba777f1" category="inline-link-macro">实施架构良好的 Cloud Volumes ONTAP 系统配置</block>
   <block id="a5f72f42d4d49e54f3c4c72a4faac290" category="paragraph">使用配置分析见解和建议，借助 NetApp 为运行在 Microsoft Azure 存储上的 Cloud Volumes ONTAP 系统实施最佳实践。您可以轻松查看架构完善状态，了解配置问题，并获得改进任何未针对可靠性、安全性、效率、性能和成本进行优化的系统架构的建议。</block>
@@ -133,7 +123,6 @@
   <block id="a986c1177dbf821528da387099394568" category="inline-image-macro">下载图标的屏幕截图</block>
   <block id="12fb11593709031df8791d4256219091" category="paragraph">（可选）选择 <block ref="c3c5eb7aac1d65e20d3c0a3a1b74a986" category="inline-image-macro-rx" type="image"></block> 以下载所有配置建议的 CSV 文件。</block>
   <block id="a1a31d23ff3b3c49f603bdfad41624a7" category="list-text">请查看此建议。</block>
-  <block id="8f6fc7ab8dca3a508e79c4cddacfe4a7" category="paragraph">修复配置问题以保持系统以最佳性能运行。</block>
   <block id="56f8181fa25efca14808cd61ff615728" category="doc">Amazon FSx for NetApp ONTAP 的配置分析</block>
   <block id="ccfc2060f8f316d0ccd33b0289111a38" category="paragraph">要进行完整的文件系统分析，必须执行以下操作：</block>
   <block id="8c696f376388c7710b3ca416a2bc8c23" category="inline-link-macro">部署 NetApp Console agent</block>
@@ -142,35 +131,18 @@
   <block id="bf2ef084e923ce6ebc4b57db27892de8" category="inline-link-macro">了解如何向 AWS 帐户授予权限</block>
   <block id="582f3532371a870cf4bd6406f93d26de" category="paragraph"><block ref="582f3532371a870cf4bd6406f93d26de" category="inline-link-macro-rx"></block></block>
   <block id="c6ee17dfa8bb85cfb470ccbc889f031c" category="section-title">存储工作负载的最佳实践和建议</block>
-  <block id="8994ec75ad87cef8edf4cf8eae6b4e4c" category="list-text">*安排卷备份*</block>
   <block id="3bacc0d1986b203b432f61110667b3d7" category="paragraph">备份卷有助于支持数据保留和合规性需求。使用卷备份为数据设置自动备份和保留。</block>
   <block id="b34347ddf6e48f7eb5aee09d6f7b92a6" category="list-text">*跨区域复制*</block>
-  <block id="1efec9308ce64129e1db77dd8baa679c" category="list-text">*设置数据复制*</block>
-  <block id="4776b32ae8a508cea6dc14786e7b1d3f" category="list-text">*提高 SSD 容量阈值*</block>
-  <block id="52dcb980883fc7c1570f6f9c4c6e4f47" category="list-text">*匹配标签以确保数据可靠性*</block>
   <block id="6b684c41f8808f2d21748ed56ee909d7" category="paragraph">源卷的快照策略标签和复制策略标签必须匹配，以确保数据可靠性。</block>
-  <block id="ec75a1c7b766068775fc7894ddaf83e4" category="list-text">*增加文件容量阈值*</block>
-  <block id="6b164cf17f1cd008f12b094341cb3264" category="list-text">*启用 ARP/AI*</block>
   <block id="3c93b584a7552b941c7752fec865d7f1" category="paragraph">NetApp Autonomous Ransomware Protection with AI (ARP/AI) 有助于保护您的卷免受勒索软件威胁。Workload Factory 建议为所有卷启用 ARP/AI。</block>
-  <block id="1218a704bef91508c259c867ba832d76" category="list-text">*未经授权访问卷*</block>
   <block id="5f11ab37407484ede3169d7e37c9e28b" category="paragraph">使用 iSCSI 服务应用程序数据的卷不应同时允许 NAS 访问。Workload Factory 建议限制 iSCSI 卷使用任何其他协议。</block>
   <block id="aae272278ce139a51849ab88adc7d597" category="paragraph">卓越运营侧重于提供最佳架构和业务价值。</block>
-  <block id="2e8c868875c81824742ded82e0ff9518" category="list-text">*启用自动容量管理*</block>
   <block id="c2af0d35add26707ebd7d7030d750beb" category="paragraph">应启用自动容量管理，以定期确保 SSD 层不超过阈值。</block>
-  <block id="900f4b8178b38a2b7075005f38bd4a08" category="list-text">*卷利用率接近满*</block>
-  <block id="1771306e58ae20ceab27a04d0b17adcd" category="paragraph">当卷接近满容量时，Workload Factory 建议采取措施增加卷容量，以避免潜在的应用程序中断。</block>
   <block id="a58ce95d0ee8f9d592643a6f31d60878" category="paragraph">为了获得最佳性能，Workload Factory 建议使用最适合您的工作负载的缓存关系写入模式。写入绕行模式为具有小文件的读取密集型工作负载提供更好的性能，而写回模式为具有大文件的写入密集型工作负载提供更好的性能。</block>
-  <block id="3a3b30a3337caa5b953626eb873e3e6b" category="list-text">*优化缓存卷大小*</block>
   <block id="3f8b3943fba700ffad94c47ef4638509" category="paragraph">Workload Factory 建议在缓存卷上启用卷自动调整大小和清理，以保持最佳大小，并将缓存集中在热数据上，以实现最高效率。</block>
-  <block id="a49bf929860657a29ec7b321ff7a63ba" category="list-text">*Storage VM 逻辑报告*</block>
-  <block id="7edda8ec9be79d47927f4aa7e27bd776" category="paragraph">Workload Factory 建议将存储虚拟机的默认报告设置设置为逻辑，以便更好地了解卷级别的存储使用情况。</block>
-  <block id="ff879d0ae47ba423426718c1437f43bc" category="list-text">*通过冷数据分层优化 TCO*</block>
-  <block id="7cee9f2699d966625a5743c41334d168" category="list-text">*启用存储效率*</block>
   <block id="a97dffed0cf7eab28dd24e64546425b8" category="paragraph">启用存储效率功能（数据缩减、压缩和重复数据删除），以优化存储利用率并降低 SSD 层成本。</block>
-  <block id="fed8dca8f704b8520ccccb85704d4336" category="list-text">*不必要的快照和备份删除*</block>
   <block id="c359614024935abd3712075452782fa3" category="list-text">*非活动块设备*</block>
   <block id="934ae55c0ac8033312b0dd4fc00ad677" category="paragraph">在块设备未使用七天后，Workload Factory 建议归档块设备数据或删除未使用的块设备以降低成本。</block>
-  <block id="f915580ac605b8302594b2e8b9e200c4" category="list-text">*未充分利用的 SSD 容量*</block>
   <block id="934fd3399568391e103ee0d773bf954d" category="list-text">*非活动 NAS 卷*</block>
   <block id="ad888b2fc1946f3bc7c47013f4399476" category="paragraph">配置分析可识别未主动使用的 NAS 卷，并建议删除或归档这些卷以降低成本。</block>
   <block id="e8355e7c1132891c80c2af3110068130" category="inline-link-macro">实施架构良好的 FSx for ONTAP 文件系统配置</block>
@@ -393,7 +365,6 @@
   <block id="9e2e4a6d40890d391147ee63c83e4ebf" category="list-text">在规则目录中，单击要查看的规则。</block>
   <block id="2d6751ce25ede21d2492997ddca98b45" category="list-text">选择*所有运行结果*选项卡。</block>
   <block id="f4e2484ce7f636995f87d4460bb472cf" category="list-text">选择**查看详细信息**以查看每次运行的结果。</block>
-  <block id="1e1d7fe345b85c5ca8f56429f339869c" category="paragraph">如果检查某些项目失败，请阅读错误消息以了解原因。常见原因包括连接问题、缺少权限或尚未设置的 Link/Connector。</block>
   <block id="8c5fb02c595607ff2d6a7bffe64be464" category="section-title">暂停规则</block>
   <block id="ad91e5fff3b8c62296713afbb3628a85" category="paragraph">暂停规则以停止评估，而不删除规则。暂停的规则保留在目录中，可以随时重新启动。</block>
   <block id="6128c344ce68ca2256885ace5b47ff93" category="list-text">在规则目录中，单击要暂停的规则。</block>
@@ -422,7 +393,6 @@
   <block id="729ff93b396b672d12011be075fa41c4" category="list-text">评估未完成。常见原因包括 AWS 凭据错误、网络连接问题或 ONTAP 权限问题。</block>
   <block id="78c94c654440e39e298ee7b003ea0c22" category="paragraph">如果规则持续失败或仅部分成功，请检查：</block>
   <block id="aa6ee29156e1ff679f21f8af41a72ab7" category="list-text">AWS 凭据具有对所有资源的只读访问权限。</block>
-  <block id="82ffeaea6f26c09775db3df15338abf4" category="list-text">已为范围内的所有文件系统配置链接和连接器。</block>
   <block id="83391d1cdfce4d8cbed45dc698dedc6e" category="list-text">FSx for ONTAP 查看器用户具有适当的权限。</block>
   <block id="cc04bd1e4cca8a5b4e87672f588bf490" category="paragraph"><block ref="cc04bd1e4cca8a5b4e87672f588bf490" category="inline-link-macro-rx"></block></block>
   <block id="df3d826b639dd614f0fae940d9ebee78" category="summary">在通过 NetApp 技术支持开立支持案例之前，您需要将 NetApp 支持站点帐户添加到 NetApp Console，然后注册以获取支持。</block>
@@ -519,7 +489,6 @@
   <block id="5b95edeaec9232eb644ac94feb361070" category="list-text"><block ref="516166149f9d9ca9d6d999bf3220e78e" category="inline-link-macro-rx"></block> 或 <block ref="f06ee96e93460df1397f1b3b70044a3e" category="inline-link-macro-rx"></block>，以对文件系统资源进行最全面的分析。</block>
   <block id="4411c3b68fd3c93bc7694b361cc21eaf" category="paragraph">请务必仔细阅读建议。该建议解释了未优化配置的最佳实践和潜在缺陷。</block>
   <block id="c37e06ff1ab011341411419a0b9135f1" category="summary">了解 NetApp Console 中精心设计的控制面板的新功能。</block>
-  <block id="4981d84eaa3fd6ff3264cddba1073588" category="paragraph"><block ref="4981d84eaa3fd6ff3264cddba1073588" category="inline-link-macro-rx"></block></block>
   <block id="79a8fc85f9cfab6c1f84759be4b7d0ca" category="paragraph"><block ref="79a8fc85f9cfab6c1f84759be4b7d0ca" category="inline-link-macro-rx"></block></block>
   <block id="08df05ffdf3909a71845f2f74f5f0192" category="paragraph"><block ref="08df05ffdf3909a71845f2f74f5f0192" category="inline-link-rx"></block></block>
   <block id="011f9504247c9cd1298e36479592feba" category="summary">NetApp Console 中的架构完善仪表板每天分析 Cloud Volumes ONTAP 系统配置，以确定是否存在任何配置问题。</block>
@@ -527,9 +496,6 @@
   <block id="ed3de084ebd57dfb5d10d8d07d5ff7c2" category="paragraph">要进行完整的 Cloud Volumes ONTAP 系统分析，您必须 <block ref="19a2c83f86e8c849ea6629f601093445" category="inline-link-macro-rx"></block> 在系统与 NetApp Console 之间建立连接。</block>
   <block id="df022fa81268ad87abe9b34e29e60ea4" category="paragraph">架构良好的仪表板评估存储配置，以提供 ONTAP 配置最佳实践的深入视图，并符合 Azure Well-Architected Framework。该评估还提出了改进和修复建议。</block>
   <block id="f52eaa2b01823c61afb346f01ff37aec" category="paragraph">可靠性可确保工作负载正确一致地执行其预期功能，即使在中断期间也是如此。</block>
-  <block id="5e4a737b303d3a3939eb4537aca01c87" category="paragraph">SSD 存储层容量不应持续超过 80% 的利用率。超过此阈值可能会降低吞吐量，使数据卷变为只读，并导致写入操作失败。</block>
-  <block id="164f1fe3d78ea23dbd1a73e77dc30653" category="paragraph">为了获得最佳性能，NetApp 建议使用最适合您的工作负载的缓存关系写入模式。写入绕行模式为具有小文件的读取密集型工作负载提供更好的性能，而写回模式为具有大文件的写入密集型工作负载提供更好的性能。</block>
-  <block id="88d49e924d44f746e9c3f5abf877e55e" category="paragraph">未充分利用的 SSD 容量层可能会产生不必要的成本。NetApp 建议减少 SSD 层容量，同时保持高于当前已用容量 20% 的可用空间缓冲区。减少操作需要几个小时到几天，在此期间不支持其他系统操作。</block>
   <block id="2b4d9723a34936112e4a4945c03eafb0" category="summary">精心设计的仪表板扫描 Cloud Volumes ONTAP 配置，提供见解和建议，帮助您实现卓越运营。</block>
   <block id="d1ba3c7d12e9fa88a8e12a675029080d" category="paragraph">精心设计的仪表板每天分析 Cloud Volumes ONTAP 系统在 Microsoft Azure 上的部署配置。每日分析提供精心设计的状态、见解和建议。</block>
   <block id="8939d3be821890ad665739df92be085d" category="paragraph">链接或控制台代理连接允许 NetApp Console 中架构良好的仪表板对您的 Cloud Volumes ONTAP 系统进行全面扫描，以查找性能、数据保护和配置方面的问题。这可确保您收到准确的见解和建议，以优化您的 Cloud Volumes ONTAP 系统。</block>
@@ -539,13 +505,9 @@
   <block id="3ce760239f38234fc2c8c277efe0bd25" category="list-text"><block ref="e519545489e6eab66fe63f918fb84c99" category="inline-link-macro-rx"></block> 或 <block ref="a06f2f34fedf48ea46300ba646899766" category="inline-link-macro-rx"></block> 以设置文件系统与 NetApp Console 之间的连接。</block>
   <block id="782a430d789ff1db80e40fbe9c0be819" category="paragraph">精心设计的仪表板根据 ONTAP 最佳实践和 AWS Well-Architected Framework 评估存储配置。该评估还提出了改进和修复建议。</block>
   <block id="fb0db5246d7e15caadfb931bef38413c" category="paragraph">跨区域复制可确保将您的数据复制到另一个 AWS 区域，从而提高数据持久性和可用性。设置跨区域复制以支持灾难恢复和合规性。</block>
-  <block id="d66064a70712979bb0d8d042862a4bb8" category="paragraph">为了扩展数据可靠性，请将数据复制到同一区域或另一区域的 FSx for ONTAP 文件系统。设置数据复制以支持跨文件系统的迁移、灾难恢复和长期保留。</block>
   <block id="5a0e6732f4b279b7f8151534487bbe55" category="paragraph">SSD存储层容量不应超过80%的利用率。这可能会影响对容量池存储层的数据读取和写入，并影响文件系统的吞吐量。当容量耗尽时，数据卷将变为只读。尝试写入新数据的服务也会失败。</block>
   <block id="9782f948325708f7c9a12b48ab18675e" category="paragraph">应提高文件容量阈值，以避免达到卷容量限制。低文件容量（索引节点）会阻止向卷写入其他数据。Workload Factory 建议将文件容量利用率保持在 80% 以下，以允许创建新文件。</block>
   <block id="358a04c23a2e8b7a739dbfc478ae8427" category="paragraph">Workload Factory 建议卷容量不超过 80% 的利用率。这可能会影响对应用程序的数据读取和写入。卷容量可以手动增加，也可以使用卷自动扩展功能自动增加。</block>
-  <block id="92e1f2c8148081be697b1fcd43f3c042" category="paragraph">启用冷数据分层以降低 SSD 存储层利用率。Workload Factory 建议对每个卷应用分层策略。FSx for ONTAP 持续扫描数据以查找冷数据，并将其无中断地移动到容量池层。</block>
-  <block id="88cf1998ed9b446c340be12e0a63b4bf" category="paragraph">删除不再需要的快照和备份，以降低成本。</block>
-  <block id="9fe3c6af0b209b829dedbd6205c7c514" category="paragraph">未充分利用的 SSD 容量层会增加不必要的成本。Workload Factory 建议减少 SSD 层容量，同时保持 20% 的可用空间缓冲区。缩减操作需要数小时至数天，在此期间不支持其他文件系统操作。</block>
   <block id="cdbdf3ae7b11d60e8f117000f407abdd" category="summary">架构完善的仪表板可扫描 Amazon FSx for NetApp ONTAP 配置，为您提供见解和建议，帮助您实现卓越运营。</block>
   <block id="994563f8c4fb5e35f528265f7b5eb386" category="paragraph">使用配置分析见解和建议，利用NetApp为您的 FSx for ONTAP 文件系统实施最佳实践。您可以轻松查看架构完善的状态，了解配置问题，采取行动改进任何未在可靠性、安全性、效率、性能和成本方面进行优化的系统的架构。</block>
   <block id="bca076b9764e88630a27e6313a438554" category="paragraph"><block ref="bca076b9764e88630a27e6313a438554" category="inline-link-macro-rx"></block></block>
@@ -565,4 +527,111 @@
   <block id="edd854bc8fa69e282718b3a59e15995a" category="doc">NetApp Console 中精心设计的控制面板的新增功能</block>
   <block id="e934f48b300109b5939d0cbed21d591e" category="sidebar">NetApp Console 中的精心设计的控制面板可帮助您维护可靠、安全、高效且经济高效的存储配置，使其与存储类型的精心设计的框架保持一致。精心设计的控制面板提供跨账户和区域的统一视图，帮助团队识别风险并确定其优先级，并支持针对特定要求的自定义规则。</block>
   <block id="bba0cbb6b2f0c8891673b3856f926b83" category="sidebar">NetApp Console 中的架构完善仪表板可帮助您维护和操作可靠、安全、高效且具有成本效益的配置，这些配置与您所使用的存储类型的架构完善框架保持一致。</block>
+  <block id="790f31a1565b039a710f1ff6cd60e24a" category="list-text">*卷备份*</block>
+  <block id="ca512a483bb26b1b253abc6b2cc463bd" category="list-text">*Snapshot 策略*</block>
+  <block id="6c9fff12a469dffc950e974a95a7b4a4" category="paragraph">安排本地快照以实现高效备份和快速恢复。快照是卷的即时时间点映像。此建议不适用于数据库环境。</block>
+  <block id="4e3fbfcdffe2becd73a5b796de048459" category="list-text">*应用程序一致性快照*</block>
+  <block id="8f1e17436bf3a87fccd5f9e6d1ed851e" category="paragraph">对于数据库环境，请使用应用程序一致性快照与 NetApp SnapCenter 配合，以便在特定时间点为卷数据拍摄准确、可靠的快照。这可确保您的应用程序顺利运行和数据安全。SnapCenter 使备份更轻松，并帮助您快速、正确地还原数据，从而减少停机时间并保护您最重要的工作负载。</block>
+  <block id="e5cdf4f9c0dda596826a91093d4f69f4" category="list-text">*SSD 容量余量*</block>
+  <block id="92c441b22ff16ef5515f94eb674b75dd" category="list-text">*复制策略标签*</block>
+  <block id="4fa20133576020963cd240328e1cfe1e" category="list-text">*文件对象容量*</block>
+  <block id="dca1fa637808ac114bc3c64902363958" category="list-text">*勒索软件保护（ARP/AI）*</block>
+  <block id="737910df50d01fa50997f65a5db71736" category="list-text">*未经授权的 iSCSI 卷访问*</block>
+  <block id="ac6bba07ba0bbbb40281e6088f214af7" category="list-text">*自动容量管理*</block>
+  <block id="bca05dfe73df2536775bb543bb367fb6" category="list-text">*卷容量余量*</block>
+  <block id="cb24245fc7fbb951739f0e037e8ed58f" category="list-text">*FlexCache 写入模式*</block>
+  <block id="199b5a17e840b5e8165065942a5aba7f" category="list-text">*FlexCache 副本大小*</block>
+  <block id="9df3c9bccd6a766926fdecf9723bee25" category="list-text">*主机可见容量报告*</block>
+  <block id="ac6d1e17d25eaeb65d82b152dfdb57bf" category="paragraph">Workload Factory 建议启用主机可见容量报告，以便更好地了解卷级别的存储使用情况。</block>
+  <block id="47d22e8e629e843266ec7435ff742bbb" category="list-text">*操作系统 (OS) 类型*</block>
+  <block id="5247b145ee65edc273dfc76802aa954d" category="paragraph">Workload Factory 建议确保 ONTAP LUN 操作系统 (OS) 类型值与操作系统分区方案匹配，以实现 I/O 对齐。配置不正确可能会降低性能。</block>
+  <block id="6297d4b1adbdb3df46577f46811017d6" category="list-text">*块设备空间管理*</block>
+  <block id="0b3d1dbc35ccab38207b2110ee154a08" category="paragraph">Workload Factory 建议为数据库主机实例使用的 LUN 配置块设备空间设置，以防止写入失败并提高 FSx for ONTAP 的空间效率。此配置适用于精简配置卷的建议设置组合：空间预留、空间分配和部分预留。</block>
+  <block id="03d17de0352cae761e78b42715347870" category="list-text">*精简配置*</block>
+  <block id="a276a4d3d1bb6ff49ba0c75013f6c037" category="paragraph">Workload Factory 建议为托管数据库实例的 FSx for ONTAP 卷配置精简配置。这种方法允许存储比实际可用容量更多的逻辑数据。</block>
+  <block id="01fd10a8e7ac161e328da4eaf6292046" category="list-text">*冷数据分层*</block>
+  <block id="a5005a71aac05b88dbddcbb021b30d0a" category="paragraph">启用冷数据分层以降低 SSD 存储层利用率。Workload Factory 建议将分层策略应用于专注于一般数据存储的每个卷。对于数据库卷，我们建议在适当情况下启用冷数据分层。FSx for ONTAP 持续扫描数据以查找冷数据，并将其无中断地移动到容量池层。</block>
+  <block id="1642a3ac22d754ea2e3215648c2ca8a7" category="list-text">*存储效率*</block>
+  <block id="4839729f2857a14e606b9472d85de0c1" category="list-text">*备份过期时间*</block>
+  <block id="2d6228f6728e6cfbec7d7d819f3dc6bd" category="paragraph">Workload Factory 建议删除已删除卷的所有手动创建的备份，以及任何超过两周的备份。这些备份不会自动过期，如果您不再需要它们用于 SLA 或恢复，可能会增加成本并增加复杂性。</block>
+  <block id="1404f94ec501f39118a91965272f695e" category="list-text">*Snapshot 过期*</block>
+  <block id="78820863b97d15c8f341065e658e9150" category="paragraph">Workload Factory 建议删除不再需要的旧快照或手动创建的快照。移除它们可以降低成本并减少冗余，特别是在您的 SLA 或恢复需求不需要它们的情况下。</block>
+  <block id="8611faa768b220ecb3795c6fda54fdaa" category="list-text">*过度配置的 SSD 容量*</block>
+  <block id="5d6d944edf403daafeea5a5aeb5e3f87" category="paragraph">过度配置的 SSD 容量层会增加不必要的成本。Workload Factory 建议减少 SSD 层容量，同时保持 20% 的可用空间缓冲区。减少操作需要几小时到几天，在此期间不支持其他文件系统操作。</block>
+  <block id="8722112d28d6eea0aff9478fb61c5de7" category="section-title">性能效率</block>
+  <block id="62d0d3849cddbcf3cccae74f05719854" category="paragraph">性能效率可帮助您确保存储资源得到有效利用，并确保工作负载以最佳方式运行。</block>
+  <block id="fbb48f4d1a3f9488b40b10d1cb8a50bd" category="list-text">*FlexGroup 卷重新平衡*</block>
+  <block id="a1ff290ebc3ad774d64f34c9530729c0" category="paragraph">Workload Factory 建议重新平衡您的 FlexGroup 卷以提高效率。横向扩展后，整个卷的容量和工作负载活动可能会变得不均匀。</block>
+  <block id="ed1fc69039bbd36676c2e04fb15f5d02" category="list-text">*FlexVol 卷重新平衡*</block>
+  <block id="d594538bbec3297430ed8c995b262222" category="paragraph">Workload Factory 建议重新平衡您的 FlexVol 卷以提高效率。横向扩展后，整个卷的容量和工作负载活动可能会变得不均匀。</block>
+  <block id="874fbc8635967fd5300d05269c50cea0" category="paragraph">Workload Factory 每天分析在支持的云存储系统部署上运行的工作负载。该分析提供架构完善的状态、见解和建议。</block>
+  <block id="27b3ab8a4b26cd2ee311ee2ac5911ba3" category="paragraph">每日分析完成后，配置在部署的精心设计的仪表板中显示为"优化"或"未优化"。您将按类别找到配置问题以及配置问题和建议列表。您可以查看配置问题的建议。某些问题可以由 Workload Factory 自动修复，而其他问题则需要手动干预。在此情况下，Workload Factory 会提供详细说明，以帮助您实施建议的更改。</block>
+  <block id="1fab3ff575faec37f5f5855ba6c44e9b" category="paragraph">您可以忽略不适用于您环境的配置分析。这样可以避免不必要的警报和不准确的优化结果。当您忽略特定配置分析时，Workload Factory 不将配置包含在总优化分数中。</block>
+  <block id="c2bf4ab5c816a6a7be03384125f4a5d6" category="paragraph">Workload Factory 通过将持续评估与建议见解和补救措施相结合，将最佳实践应用于大型存储、数据库和 VMware 环境。在 NetApp Console 中应用的自动修复可减少人为错误，确保统一管理，并保持整个工作负载基础架构的性能和可靠性。</block>
+  <block id="e2ebd09935add1884e0a1760dbc09e25" category="doc">在架构良好的仪表板中更新了 FSx for ONTAP 的配置名称</block>
+  <block id="032088baae45e30e8391672094b24e52" category="paragraph">NetApp Console 中的架构完善仪表板现已更新了 FSx for ONTAP 的存储配置名称，以提高清晰度和一致性。</block>
+  <block id="621e6224bbf11b1ac6b5f87473e435f3" category="paragraph">下表列出了架构良好的仪表板中的旧配置名称及其对应的新配置名称。</block>
+  <block id="a146b5f65d0f760a564be35477bfc75d" category="cell">旧配置名称</block>
+  <block id="12d6467c8f43573f715aed485545d3e9" category="cell">新配置名称</block>
+  <block id="903362563951f197b003dcc5e085f6af" category="cell">计划卷备份</block>
+  <block id="236cb64067292409b71f3255e98656ec" category="cell">卷备份</block>
+  <block id="9d0e9f5c0aa1e38cfaa8e64e155bc5a8" category="cell">SSD 容量阈值</block>
+  <block id="6f5cf50fa90f8d99bf50f65e676c6cba" category="cell">固态硬盘容量余量</block>
+  <block id="33b83fba92abc7b8587ce85f370cccd9" category="cell">文件容量阈值</block>
+  <block id="15163a77b6307ce8f1d8bd1cbf7a6cd4" category="cell">文件容量净空</block>
+  <block id="9bc968c7a7fb78050d3076a90e4467f3" category="cell">长期保留数据的可靠性</block>
+  <block id="f9f9d1f00c978cfa77ad3dcbff84556f" category="cell">复制策略标签</block>
+  <block id="aff279b636a9024db3b44375d88e80eb" category="cell">计划的本地快照</block>
+  <block id="4c0abf2d4c54820b8d33061abaf30759" category="cell">Snapshot 策略</block>
+  <block id="1fd07c2c7cd7507d0210720bf2df7ff6" category="cell">删除不必要的备份</block>
+  <block id="01cbe155039c742db3896b9035645b36" category="cell">备份过期时间</block>
+  <block id="550b0142e01d6b38f02a6b97265b556f" category="cell">删除不必要的快照</block>
+  <block id="d84a194032e3c50774cb6b396ce9dc40" category="cell">Snapshot 到期</block>
+  <block id="d7caefb46c5a6173b05919091553daa7" category="cell">未充分利用的固态硬盘容量</block>
+  <block id="f2be0a28c695a5089b4046f22076c338" category="cell">SSD 容量过度配置</block>
+  <block id="dd1488cd022a3092a136ebc9da3e9fe7" category="cell">非活动块设备</block>
+  <block id="1951894078f3de8ca78fd73263ce1157" category="cell">非活动数据块设备(LUN)</block>
+  <block id="754d35c272ac188c16d1e8ecadd3a4e9" category="cell">通过冷数据分层优化总拥有成本</block>
+  <block id="0ab265b548fdc40b21483e61ffde3aba" category="cell">冷数据分层</block>
+  <block id="373606d37d348aab2b92921ccd42cff6" category="cell">卷逻辑容量报告</block>
+  <block id="fb98d5426e98926f645d90cd612abb55" category="cell">主机可见容量报告</block>
+  <block id="f552bec70b627829570b2811ef2abeaf" category="cell">FlexGroup 卷重新平衡</block>
+  <block id="de86f1900d1389562924dab590f1c54b" category="cell">重新平衡 FlexGroup 卷</block>
+  <block id="8c88443c0d2ca0582a66db0631948d4f" category="cell">FlexVol 卷重新平衡</block>
+  <block id="7bac915f83e068ef1efc39ae5b1417fa" category="cell">重新平衡 FlexVol 卷</block>
+  <block id="e64c3fb252960e226830fb49bf513992" category="cell">缓存关系写入模式</block>
+  <block id="f415a433abd1a63e1e6645ce5f72289f" category="cell">FlexCache 写入模式</block>
+  <block id="a9ac5841a812cdf71b3574e2998bafd4" category="cell">优化缓存卷大小</block>
+  <block id="5161fb1808cb1162babdbde5565ef1ad" category="cell">FlexCache 副本大小</block>
+  <block id="c18bcbffca9b6549dbf4c1113b6caa46" category="cell">未经授权访问卷</block>
+  <block id="cc5065c9785f355774b0462bc72597ed" category="cell">未经授权的 iSCSI 卷访问</block>
+  <block id="97cbff5fe2b08c67e69334a1f6bb2a8a" category="cell">ARP/AI 已禁用</block>
+  <block id="56137b68eb5832ccdd9138b8c5138148" category="cell">勒索软件保护（ARP/AI）</block>
+  <block id="25a7621f5136df7ea1f50ee60bab4529" category="section-title">修复、关闭和重新激活 Microsoft Azure 中 Cloud Volumes ONTAP 的配置</block>
+  <block id="3f2d6026e86cfc3a3e872a2f3cd8f989" category="paragraph">NetApp Console 中精心设计的仪表板现在允许您修复 Cloud Volumes ONTAP 系统的配置建议。</block>
+  <block id="e4eac83bd4922d84fdd323f4afe1066b" category="paragraph">您还可以从良好架构分析中忽略一个或多个配置。这样，您可以忽略不适用于您的环境的特定配置。</block>
+  <block id="d45ddb9ce602eba8b90aee11b1ee25cf" category="paragraph">如果稍后要包含已取消的配置，可以在架构良好的控制面板中重新激活该配置。这会将配置还原到分析中，并允许您获取其建议和修复。</block>
+  <block id="cda40a00113c322adbbd074032606bfe" category="paragraph"><block ref="cda40a00113c322adbbd074032606bfe" category="inline-link-macro-rx"></block></block>
+  <block id="21b694dc2503eab08ab245a8bcfe9f1c" category="inline-link-macro">了解人工智能管理</block>
+  <block id="b1e856d73a7bddeb40cc57002b01ea2b" category="admonition">如果您的账号管理员已关闭 AI 功能，您将看到一条消息，无法创建自定义规则。请联系您的管理员或 <block ref="a4efb9d0168cfdc15063741b91ed0040" category="inline-link-macro-rx"></block>。</block>
+  <block id="54b091dc0d26574680b715ea59512839" category="paragraph">未解析的指令，位于 &lt;stdin&gt; - include::well-architected-workloads.adoc[]</block>
+  <block id="e1571d44d672c7a35fe7952a28f414b7" category="paragraph">SSD 存储层容量不应超过 80% 的利用率。这可能会影响对容量池存储层的数据读取和写入，并影响系统的吞吐量。当容量耗尽时，数据卷将变为只读。尝试写入新数据的服务也会失败。</block>
+  <block id="70a83d0e2246f9bf751ee82d9d86782a" category="paragraph">我们建议卷容量不超过 80% 的利用率。这可能会影响对应用程序的数据读取和写入。卷容量可以手动增加，也可以使用卷自动增长功能自动增加。</block>
+  <block id="fce6ac16b523a1ae826c8b02fe97af9a" category="paragraph">为了获得最佳性能，我们建议使用最适合您的工作负载的 FlexCache 写入模式。写入绕行模式为具有小文件的读取密集型工作负载提供更好的性能，而写回模式为具有大文件的写入密集型工作负载提供更好的性能。</block>
+  <block id="7cba8fc6d012368d0bb1868a9da3aebb" category="paragraph">我们建议在缓存卷上启用卷自动调整大小和清理，以保持最佳大小，并将缓存集中在频繁访问（热）数据上，以实现最高效率。</block>
+  <block id="aafa79fe1c7925cadee2f2931c5a90a6" category="paragraph">过度配置的 SSD 容量层会增加不必要的成本。我们建议在保持 20% 可用空间缓冲区的同时减少 SSD 层容量。减少操作需要数小时到数天，在此期间不支持其他文件系统操作。</block>
+  <block id="038dede88376955fc6f5dc23c8915a6f" category="paragraph">启用冷数据分层，将冷数据从 SSD 存储层移动到成本较低的存储。我们建议对每个卷应用分层策略。Azure Blob Storage 用作非活动数据的容量层。</block>
+  <block id="8a4fd5d300e707a9269f6215138076a2" category="paragraph"><block ref="8a4fd5d300e707a9269f6215138076a2" category="inline-link-macro-rx"></block></block>
+  <block id="3b2bdc5e09bea40bfecc86e787cc29c3" category="paragraph">您可以修复 Cloud Volumes ONTAP 系统或文件系统中选定卷的配置问题。您可以选择一个或多个要修复的配置。</block>
+  <block id="cd375ffa56c1139e1dfd8d14cf3947db" category="paragraph">修复过程可能导致实例停机或服务中断。在修复配置问题之前，请仔细阅读每个建议。</block>
+  <block id="44642e2ce79e19a13d96c2540f6a27e3" category="list-text">查看对话框中显示的摘要和操作项目，了解解决此问题后会发生什么。某些操作可能导致实例停机或服务中断。</block>
+  <block id="4a98f536eaad8a4f8fba5780c2425562" category="paragraph">停止 Cloud Volumes ONTAP 系统或选定卷的配置分析。您可以在需要时重新启动分析。</block>
+  <block id="1ba6be935ab946465d05505a4c53e7a7" category="paragraph">随时重新激活 Cloud Volumes ONTAP 系统的已解除配置分析。您可以选择一个或多个要重新激活的配置。</block>
+  <block id="77b9268ed80b17f39e2b280a439b5a22" category="paragraph">系统重新激活配置分析。每天都会进行新的分析。</block>
+  <block id="ff0fee542e14fa22892513a7e8b95e5c" category="paragraph">未解析的指令，位于 &lt;stdin&gt; - include::fsx-configurations.adoc[]</block>
+  <block id="48dc51848c127d267cdd7ab1bcd0fe5e" category="inline-link-macro">了解如何管理 AI 功能</block>
+  <block id="e3be61076fdf378fb58cb7d809332294" category="admonition">如果您的帐户管理员已关闭 AI 功能，则规则生成器将不可用，您将无法创建自定义规则。<block ref="0d265466472513eb45c1ef2960b8028d" category="inline-link-macro-rx"></block>。</block>
+  <block id="13b595cf2341f5678ff3130cc1287485" category="paragraph">如果检查某些项目失败，请阅读错误消息以了解原因。常见原因包括连接问题、缺少权限或尚未设置的链接。</block>
+  <block id="a95c691058f1f67702ea9a0cde5efa02" category="list-text">已为范围内的所有文件系统配置了 Link 和 Console 代理。</block>
+  <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">2026年8月3日</block>
 </blocks>
