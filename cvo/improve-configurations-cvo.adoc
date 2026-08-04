@@ -88,7 +88,7 @@ Workload Factory 启动修复此问题的流程。选择帐户设置菜单，然
 
 [role="tabbed-block"]
 ====
-.关闭文件系统的配置分析
+.忽略系统的配置分析
 --
 .步骤
 . 登录到 link:https://console.netapp.com/home["NetApp Console"^]。
@@ -119,7 +119,7 @@ Workload Factory 启动修复此问题的流程。选择帐户设置菜单，然
 --
 ====
 .结果
-文件系统或选定卷的配置分析停止。
+系统或选定卷的配置分析停止。
 
 您可以随时重新激活分析。
 
@@ -132,7 +132,7 @@ Workload Factory 启动修复此问题的流程。选择帐户设置菜单，然
 
 [role="tabbed-block"]
 ====
-.重新激活文件系统的配置分析
+.重新激活系统的配置分析
 --
 .步骤
 . 登录到 link:https://console.netapp.com/home["NetApp Console"^]。
