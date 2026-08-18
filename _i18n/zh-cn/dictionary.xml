@@ -4,7 +4,6 @@
   <block id="92b6fed6ba9205d1ef1ae0e1d186dfa8" category="paragraph">NetApp Console 中的精心设计的控制面板提供了跨帐户和区域的存储系统和配置的单一视图。控制面板提供见解和建议，以帮助您实现卓越运营。您可以查看配置的良好架构状态、由您使用的存储类型的良好架构框架的支柱组织的配置问题以及配置问题和建议列表。</block>
   <block id="5525eb13e3a89cfcd9f9c5e55aa357a4" category="inline-link-macro">精心设计的仪表板</block>
   <block id="6e2cc6111df032359200840287f3c08f" category="paragraph">详细了解 <block ref="5f27d98a28d7d5cdbad5c60f254e5b36" category="inline-link-macro-rx"></block>。</block>
-  <block id="77411708fcf4ba6bf72f1bc14c6e4893" category="paragraph">控制台中的架构完善控制面板可用于以下存储系统：</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="inline-link-macro">Amazon FSx for NetApp ONTAP</block>
   <block id="d9f28f14f6e934bc2dca96849f86ad2f" category="inline-link-macro">Microsoft Azure 中的 Cloud Volumes ONTAP</block>
   <block id="95be701b55d8162269ca03772d2761bc" category="section-title">创建自己的自定义规则</block>
@@ -482,8 +481,6 @@
   <block id="b19bb0439c5d62764cdbd2b118e3f054" category="sidebar">配置分析</block>
   <block id="9123b467a31fc6f9863d4a33d8a6badc" category="sidebar">改进文件系统配置</block>
   <block id="461c5d5f90a73ed3aa1f4d477121a6cb" category="sidebar">改进系统配置</block>
-  <block id="2792cdd0b68bc0567866e5ad220d7b78" category="list-text"><block ref="2792cdd0b68bc0567866e5ad220d7b78" category="inline-link-macro-rx"></block></block>
-  <block id="aa8acd8bfdebf2540f62c36f9f09a75f" category="list-text"><block ref="aa8acd8bfdebf2540f62c36f9f09a75f" category="inline-link-macro-rx"></block></block>
   <block id="b2a386f5924b478e19e471dfee7196f1" category="paragraph">您还可以忽略不适用于存储环境的特定存储配置的分析，以避免不必要的警报和不准确的优化结果。</block>
   <block id="947d9294996f8955f80ff03bc9f99324" category="inline-link-macro">安装控制台代理</block>
   <block id="5b95edeaec9232eb644ac94feb361070" category="list-text"><block ref="516166149f9d9ca9d6d999bf3220e78e" category="inline-link-macro-rx"></block> 或 <block ref="f06ee96e93460df1397f1b3b70044a3e" category="inline-link-macro-rx"></block>，以对文件系统资源进行最全面的分析。</block>
@@ -568,7 +565,6 @@
   <block id="27b3ab8a4b26cd2ee311ee2ac5911ba3" category="paragraph">每日分析完成后，配置在部署的精心设计的仪表板中显示为"优化"或"未优化"。您将按类别找到配置问题以及配置问题和建议列表。您可以查看配置问题的建议。某些问题可以由 Workload Factory 自动修复，而其他问题则需要手动干预。在此情况下，Workload Factory 会提供详细说明，以帮助您实施建议的更改。</block>
   <block id="c2bf4ab5c816a6a7be03384125f4a5d6" category="paragraph">Workload Factory 通过将持续评估与建议见解和补救措施相结合，将最佳实践应用于大型存储、数据库和 VMware 环境。在 NetApp Console 中应用的自动修复可减少人为错误，确保统一管理，并保持整个工作负载基础架构的性能和可靠性。</block>
   <block id="e2ebd09935add1884e0a1760dbc09e25" category="doc">在架构良好的仪表板中更新了 FSx for ONTAP 的配置名称</block>
-  <block id="032088baae45e30e8391672094b24e52" category="paragraph">NetApp Console 中的架构完善仪表板现已更新了 FSx for ONTAP 的存储配置名称，以提高清晰度和一致性。</block>
   <block id="621e6224bbf11b1ac6b5f87473e435f3" category="paragraph">下表列出了架构良好的仪表板中的旧配置名称及其对应的新配置名称。</block>
   <block id="a146b5f65d0f760a564be35477bfc75d" category="cell">旧配置名称</block>
   <block id="12d6467c8f43573f715aed485545d3e9" category="cell">新配置名称</block>
@@ -668,4 +664,13 @@
   <block id="8bd52317b540b055ec84ab7385f1789b" category="open-title">重新激活存储池的配置分析</block>
   <block id="7c3780c8bbc09e634d77ec9249acfb5c" category="section-title">2026年8月17日</block>
   <block id="ba1aed8913644f1ebd2b60ecd5599879" category="sidebar">改进存储池配置</block>
+  <block id="f2085e6c9159e77c1694598931a78c54" category="inline-link-macro">Microsoft Azure 中的 Cloud Volumes ONTAP。</block>
+  <block id="af60dd6d4748d367317db02ecf8412df" category="paragraph">Console 中经过精心设计的仪表板可用于 <block ref="a6a029d1bfbb017a404644ee02b0b284" category="inline-link-macro-rx"></block></block>
+  <block id="9816127c5ba6e54118e083fdec8ad3df" category="doc">FSx for ONTAP 支持（在 NetApp Console 的架构完善仪表板中）</block>
+  <block id="1629fd97bdf4fe6ac821be71ca871779" category="paragraph">NetApp Console 中的架构完善控制面板适用于 Amazon FSx for NetApp ONTAP。</block>
+  <block id="5b7d5195e94ffd4ac888acf6fbbccf7e" category="inline-link-macro">了解 FSx for ONTAP 的配置分析</block>
+  <block id="587f2f386400c1dc23a9fd0e1cd944c2" category="list-text"><block ref="587f2f386400c1dc23a9fd0e1cd944c2" category="inline-link-macro-rx"></block></block>
+  <block id="1fe3fd4de61717821aa57d32ae5f7acb" category="paragraph">NetApp Console 中的架构完善仪表盘现在包含 FSx for ONTAP 的新存储配置名称。</block>
+  <block id="ad733bbe9d89c9e20092c270243f6841" category="section-title">在 NetApp Console 系统页面中显示的架构良好问题</block>
+  <block id="a86f2b5144564ef122dbd0daa8abbeda" category="paragraph">Microsoft Azure 中 Cloud Volumes ONTAP 的架构良好问题通知可从 NetApp Console 的"存储管理系统"页面获取。此功能可帮助您快速识别 Azure 中 Cloud Volumes ONTAP 系统中的配置问题，并从通知导航到 Workloads 架构良好仪表板。</block>
 </blocks>

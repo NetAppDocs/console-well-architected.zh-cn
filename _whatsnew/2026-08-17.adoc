@@ -1,0 +1,84 @@
+= FSx for ONTAP 支持（在 NetApp Console 的架构完善仪表板中）
+:allow-uri-read: 
+
+
+
+
+[[fsx-for-ontap-support-in-the-well-architected-dashboard-in-netapp-console]]
+=== FSx for ONTAP 支持（在 NetApp Console 的架构完善仪表板中）
+
+NetApp Console 中的架构完善控制面板适用于 Amazon FSx for NetApp ONTAP。
+
+* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["了解 FSx for ONTAP 的配置分析"]
+
+
+
+
+[[updated-configuration-names-for-fsx-for-ontap-in-the-well-architected-dashboard]]
+=== 在架构良好的仪表板中更新了 FSx for ONTAP 的配置名称
+
+NetApp Console 中的架构完善仪表盘现在包含 FSx for ONTAP 的新存储配置名称。
+
+下表列出了架构良好的仪表板中的旧配置名称及其对应的新配置名称。
+
+[cols="1,1"]
+|===
+| 旧配置名称 | 新配置名称 
+
+
+| 计划卷备份 | 卷备份 
+
+
+| SSD 容量阈值 | 固态硬盘容量余量 
+
+
+| 文件容量阈值 | 文件容量净空 
+
+
+| 长期保留数据的可靠性 | 复制策略标签 
+
+
+| 计划的本地快照 | Snapshot 策略 
+
+
+| 删除不必要的备份 | 备份过期时间 
+
+
+| 删除不必要的快照 | Snapshot 到期 
+
+
+| 未充分利用的固态硬盘容量 | SSD 容量过度配置 
+
+
+| 非活动块设备 | 非活动数据块设备(LUN) 
+
+
+| 通过冷数据分层优化总拥有成本 | 冷数据分层 
+
+
+| 卷逻辑容量报告 | 主机可见容量报告 
+
+
+| FlexGroup 卷重新平衡 | 重新平衡 FlexGroup 卷 
+
+
+| FlexVol 卷重新平衡 | 重新平衡 FlexVol 卷 
+
+
+| 缓存关系写入模式 | FlexCache 写入模式 
+
+
+| 优化缓存卷大小 | FlexCache 副本大小 
+
+
+| 未经授权访问卷 | 未经授权的 iSCSI 卷访问 
+
+
+| ARP/AI 已禁用 | 勒索软件保护（ARP/AI） 
+|===
+
+
+[[well-architected-issues-displayed-in-netapp-console-systems-page]]
+=== 在 NetApp Console 系统页面中显示的架构良好问题
+
+Microsoft Azure 中 Cloud Volumes ONTAP 的架构良好问题通知可从 NetApp Console 的"存储管理系统"页面获取。此功能可帮助您快速识别 Azure 中 Cloud Volumes ONTAP 系统中的配置问题，并从通知导航到 Workloads 架构良好仪表板。

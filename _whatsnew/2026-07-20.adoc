@@ -11,11 +11,7 @@ NetApp Console 中的精心设计的控制面板提供了跨帐户和区域的�
 
 详细了解 link:https://docs.netapp.com/us-en/console-well-architected/learn-well-architected-dashboard.html["精心设计的仪表板"]。
 
-控制台中的架构完善控制面板可用于以下存储系统：
-
-* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
-* link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Microsoft Azure 中的 Cloud Volumes ONTAP"]
-
+Console 中经过精心设计的仪表板可用于 link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Microsoft Azure 中的 Cloud Volumes ONTAP。"]
 
 
 
