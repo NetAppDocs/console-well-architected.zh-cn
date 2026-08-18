@@ -673,4 +673,5 @@
   <block id="1fe3fd4de61717821aa57d32ae5f7acb" category="paragraph">NetApp Console 中的架构完善仪表盘现在包含 FSx for ONTAP 的新存储配置名称。</block>
   <block id="ad733bbe9d89c9e20092c270243f6841" category="section-title">在 NetApp Console 系统页面中显示的架构良好问题</block>
   <block id="a86f2b5144564ef122dbd0daa8abbeda" category="paragraph">Microsoft Azure 中 Cloud Volumes ONTAP 的架构良好问题通知可从 NetApp Console 的"存储管理系统"页面获取。此功能可帮助您快速识别 Azure 中 Cloud Volumes ONTAP 系统中的配置问题，并从通知导航到 Workloads 架构良好仪表板。</block>
+  <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">2026年8月10日</block>
 </blocks>
