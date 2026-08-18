@@ -564,7 +564,6 @@
   <block id="874fbc8635967fd5300d05269c50cea0" category="paragraph">Workload Factory 每天分析在支持的云存储系统部署上运行的工作负载。该分析提供架构完善的状态、见解和建议。</block>
   <block id="27b3ab8a4b26cd2ee311ee2ac5911ba3" category="paragraph">每日分析完成后，配置在部署的精心设计的仪表板中显示为"优化"或"未优化"。您将按类别找到配置问题以及配置问题和建议列表。您可以查看配置问题的建议。某些问题可以由 Workload Factory 自动修复，而其他问题则需要手动干预。在此情况下，Workload Factory 会提供详细说明，以帮助您实施建议的更改。</block>
   <block id="c2bf4ab5c816a6a7be03384125f4a5d6" category="paragraph">Workload Factory 通过将持续评估与建议见解和补救措施相结合，将最佳实践应用于大型存储、数据库和 VMware 环境。在 NetApp Console 中应用的自动修复可减少人为错误，确保统一管理，并保持整个工作负载基础架构的性能和可靠性。</block>
-  <block id="e2ebd09935add1884e0a1760dbc09e25" category="doc">在架构良好的仪表板中更新了 FSx for ONTAP 的配置名称</block>
   <block id="621e6224bbf11b1ac6b5f87473e435f3" category="paragraph">下表列出了架构良好的仪表板中的旧配置名称及其对应的新配置名称。</block>
   <block id="a146b5f65d0f760a564be35477bfc75d" category="cell">旧配置名称</block>
   <block id="12d6467c8f43573f715aed485545d3e9" category="cell">新配置名称</block>
@@ -670,8 +669,9 @@
   <block id="1629fd97bdf4fe6ac821be71ca871779" category="paragraph">NetApp Console 中的架构完善控制面板适用于 Amazon FSx for NetApp ONTAP。</block>
   <block id="5b7d5195e94ffd4ac888acf6fbbccf7e" category="inline-link-macro">了解 FSx for ONTAP 的配置分析</block>
   <block id="587f2f386400c1dc23a9fd0e1cd944c2" category="list-text"><block ref="587f2f386400c1dc23a9fd0e1cd944c2" category="inline-link-macro-rx"></block></block>
-  <block id="1fe3fd4de61717821aa57d32ae5f7acb" category="paragraph">NetApp Console 中的架构完善仪表盘现在包含 FSx for ONTAP 的新存储配置名称。</block>
   <block id="ad733bbe9d89c9e20092c270243f6841" category="section-title">在 NetApp Console 系统页面中显示的架构良好问题</block>
   <block id="a86f2b5144564ef122dbd0daa8abbeda" category="paragraph">Microsoft Azure 中 Cloud Volumes ONTAP 的架构良好问题通知可从 NetApp Console 的"存储管理系统"页面获取。此功能可帮助您快速识别 Azure 中 Cloud Volumes ONTAP 系统中的配置问题，并从通知导航到 Workloads 架构良好仪表板。</block>
   <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">2026年8月10日</block>
+  <block id="33f99db970bd78e039b488318b97f37e" category="section-title">在架构完善的仪表板中更新了配置名称</block>
+  <block id="f757183a2ec8b22ec352eea98a6e4f53" category="paragraph">NetApp Console 中的架构完善仪表板现在包含新的存储配置名称。</block>
 </blocks>

@@ -25,15 +25,14 @@ summary: 了解 NetApp Console 中精心设计的控制面板的新功能。
 
 NetApp Console 中的架构完善控制面板适用于 Amazon FSx for NetApp ONTAP。
 
-* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["了解 FSx for ONTAP 的配置分析"]
+link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["了解 FSx for ONTAP 的配置分析"]
 
 
 
+[[updated-configuration-names-in-the-well-architected-dashboard]]
+=== 在架构完善的仪表板中更新了配置名称
 
-[[updated-configuration-names-for-fsx-for-ontap-in-the-well-architected-dashboard]]
-=== 在架构良好的仪表板中更新了 FSx for ONTAP 的配置名称
-
-NetApp Console 中的架构完善仪表盘现在包含 FSx for ONTAP 的新存储配置名称。
+NetApp Console 中的架构完善仪表板现在包含新的存储配置名称。
 
 下表列出了架构良好的仪表板中的旧配置名称及其对应的新配置名称。
 
