@@ -15,6 +15,20 @@ summary: 了解 NetApp Console 中精心设计的控制面板的新功能。
 
 
 
+[[17-august-2026]]
+== 2026年8月17日
+
+
+
+[[google-cloud-netapp-volumes-support-in-the-well-architected-dashboard]]
+=== 在精心设计的控制面板中支持 Google Cloud NetApp Volumes
+
+NetApp Console 控制面板现在支持 Google Cloud NetApp Volumes。存储管理员可以查看其存储池和配置的状态，获取提高效率、成本、性能、可靠性和安全性的建议，并采取行动优化操作并遵循最佳实践。
+
+详细了解link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["Google Cloud NetApp Volumes 的配置分析"]。
+
+
+
 [[03-august-2026]]
 == 2026年8月3日
 

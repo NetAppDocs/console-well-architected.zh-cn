@@ -636,4 +636,36 @@
   <block id="b4bb104bc7f6b013b24aa5c7a44aa055" category="open-title">忽略系统的配置分析</block>
   <block id="80a954d968e09a819a0b88441d353ade" category="paragraph">系统或选定卷的配置分析停止。</block>
   <block id="e4950e45b6d4c698727d71332ead60c7" category="open-title">重新激活系统的配置分析</block>
+  <block id="411510101e0d2ef6d81ff08c0e3c361c" category="doc">在精心设计的控制面板中支持 Google Cloud NetApp Volumes</block>
+  <block id="d34de5f33d744d45edd40a05562254f8" category="paragraph">NetApp Console 控制面板现在支持 Google Cloud NetApp Volumes。存储管理员可以查看其存储池和配置的状态，获取提高效率、成本、性能、可靠性和安全性的建议，并采取行动优化操作并遵循最佳实践。</block>
+  <block id="9734fa1668ca0b65477c528e1024d6a1" category="inline-link-macro">Google Cloud NetApp Volumes 的配置分析</block>
+  <block id="63703f359f410e2c981eed9b102fdf93" category="paragraph">详细了解<block ref="a1a9e128c0fafd7c1526a7b783f92760" category="inline-link-macro-rx"></block>。</block>
+  <block id="05029207853354642479203b2397ee75" category="summary">NetApp Console 会定期分析存储系统配置，以确定是否存在任何配置问题。</block>
+  <block id="d1105940d035a158565dfb73958010e1" category="paragraph">NetApp Console 中架构良好的控制面板定期分析存储系统配置，以确定是否存在任何配置问题。发现问题时，控制面板会向您显示问题所在，并解释需要更改的内容，以确保您的存储系统实现最佳性能、成本效益和符合最佳实践。</block>
+  <block id="1a47b8defb4d7d06bba18c483c447b3d" category="paragraph">要进行完整的存储池分析，必须执行以下操作：</block>
+  <block id="356cd648ad799f2eb92aa086872fc932" category="inline-link-macro">将您的 Google Cloud NetApp Volumes 系统添加到 NetApp Console</block>
+  <block id="a03acef5fcdb9180f0811d46c7421b0f" category="list-text"><block ref="6ea9c63ba945b3cb96bff5e211bb3f99" category="inline-link-macro-rx"></block>。</block>
+  <block id="01b307f0335162114b66a6190044c275" category="list-text">在您的 Google Cloud 帐户中授予_查看、规划和分析_权限。</block>
+  <block id="1341f195ac9799a77bdbba45d7cc551e" category="inline-link-macro">了解如何向 Google Cloud 帐户授予权限</block>
+  <block id="011c3ba35123b641365e7db9c488ccaa" category="paragraph"><block ref="011c3ba35123b641365e7db9c488ccaa" category="inline-link-macro-rx"></block></block>
+  <block id="9d1211cf0c0938352f5fc0c16d3f4f45" category="paragraph">Workload Factory 根据存储和 ONTAP 最佳实践以及 Google Cloud Well-Architected Framework 评估存储配置。评估还提出了改进建议。</block>
+  <block id="6e1d527b580364f3697ae14e9ee87785" category="paragraph">精心设计的分析将配置归类为框架的以下支柱：_可靠性_和_卓越运营_。</block>
+  <block id="c5a88482771f220e57ee0ee1238fff02" category="paragraph">Workload Factory 建议将 SSD 层使用率保持在 80% 或更低。某些工作负载可能需要额外的容量空间和更低的利用率目标。当使用率超过建议的余量时，性能下降和服务问题的风险就会增加，尤其是在容量未能及时扩展的情况下。您可以针对一个或多个存储池关闭此提示，并在需要时重新激活。</block>
+  <block id="7ac5667c1b90b6524fde9817118effea" category="paragraph">Workload Factory 建议将卷使用率保持在 80% 以下，以降低空间用尽的风险。如果卷的增长速度快于预期，则可能需要快速扩展它。这可能会增加应用程序受影响的风险，尤其是在突然或急剧增长的情况下。使用精简配置和自动容量管理时，此风险较低。您可以为一个或多个卷关闭它，然后在需要时重新激活它。</block>
+  <block id="f793fba5432b14d544dc9553f3dba075" category="inline-link-macro">实施精心设计的 Google Cloud NetApp Volumes 配置</block>
+  <block id="5ec047b28053268ed0ad18838887d2a3" category="paragraph"><block ref="5ec047b28053268ed0ad18838887d2a3" category="inline-link-macro-rx"></block></block>
+  <block id="1fbc6d00faf337e60116deb7a9436737" category="summary">Workload Factory 扫描 Google Cloud NetApp Volumes 配置，提供见解和建议，帮助您实现卓越运营。</block>
+  <block id="5bf39b6df69484117b7a94f73c047bec" category="paragraph">利用配置分析见解和建议，借助 NetApp 为运行在 Google Cloud 存储上的 Google Cloud NetApp Volumes 存储池实施最佳实践。您可以轻松查看架构完善状态，了解配置问题，并获取针对未在可靠性、安全性、性能和成本方面进行优化的存储池的架构改进建议。</block>
+  <block id="1269bb270aa667888f34bfd5203e5e88" category="paragraph"><block ref="1269bb270aa667888f34bfd5203e5e88" category="inline-link-macro-rx"></block></block>
+  <block id="7d1ff00602d5a32748c6468a1bf8908e" category="paragraph">NetApp 每天分析 Google Cloud 中的 Google Cloud NetApp Volumes 存储池部署。每日分析提供架构完善状态、见解和建议，帮助您了解配置问题，从而使存储池符合最佳实践。</block>
+  <block id="d0d02e6506e8567d2ac0bb5ca6e21b91" category="paragraph">日常分析完成后，仪表板将显示架构良好的资源总数、处于关键状态的资源数以及处于警告状态的资源数。配置按照架构完善的框架的支柱进行分类：可靠性、卓越运营、成本优化、性能效率和安全性。仪表板还包括一个表，其中列出了所有配置、这些配置的良好架构状态、严重性、类别、资源类型（卷或存储池）、受影响的资源，以及在配置未优化时查看建议的选项。</block>
+  <block id="f21564fb71fad839082e8c15cb010c91" category="inline-link-macro">添加 Google Cloud NetApp Volumes 存储池</block>
+  <block id="a0b5edb9fd5c7fc4af08ec7f9d8f5ac4" category="list-text">您必须<block ref="c1fd87c15a6ed0202ad48d3bb45d685c" category="inline-link-macro-rx"></block>登录 NetApp Console，才能查看配置问题的良好架构状态和建议。</block>
+  <block id="8dc69cd01e974d0a8cfceb0224c8eac3" category="paragraph">停止对 Google Cloud NetApp Volumes 存储池或选定卷的配置分析。您可以在需要时重新启动分析。</block>
+  <block id="999cd7a79e85f3b89a91072601ea0f41" category="open-title">取消存储池的配置分析</block>
+  <block id="4f15062a66ee3b6add54b47335156af9" category="list-text">在"配置"下，确定要为所选卷解除的配置，然后选择 *View*。</block>
+  <block id="702e775cae6fd33f5cbf005de9ec14c5" category="paragraph">存储池或选定卷的配置分析停止。</block>
+  <block id="8bd52317b540b055ec84ab7385f1789b" category="open-title">重新激活存储池的配置分析</block>
+  <block id="7c3780c8bbc09e634d77ec9249acfb5c" category="section-title">2026年8月17日</block>
+  <block id="ba1aed8913644f1ebd2b60ecd5599879" category="sidebar">改进存储池配置</block>
 </blocks>

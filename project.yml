@@ -35,6 +35,12 @@ sidebar:
         url: "/cvo/configuration-analysis-cvo.html"
       - title: 改进系统配置
         url: "/cvo/improve-configurations-cvo.html"
+    - title: Google Cloud NetApp Volumes
+      entries:
+      - title: 配置分析
+        url: "/gcnv/configuration-analysis-gcnv.html"
+      - title: 改进存储池配置
+        url: "/gcnv/improve-configurations-gcnv.html"
   - title: 建立自己的规则
     entries:
     - title: 了解自定义规则
