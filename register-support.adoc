@@ -4,7 +4,7 @@ permalink: register-support.html
 keywords: support registration, register for support, support, nss account, add nss account, NetApp Console 
 summary: 在通过 NetApp 技术支持开立支持案例之前，您需要将 NetApp 支持站点帐户添加到 NetApp Console，然后注册以获取支持。 
 ---
-= 注册以获得支持
+= 注册以获得 NetApp Console 支持
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/

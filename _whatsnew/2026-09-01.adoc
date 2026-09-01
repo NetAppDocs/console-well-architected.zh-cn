@@ -1,0 +1,26 @@
+= Cloud Volumes ONTAP 的远程数据复制评估
+:allow-uri-read: 
+
+
+
+
+[[remote-data-replication-assessment-for-cloud-volumes-ontap]]
+=== Cloud Volumes ONTAP 的远程数据复制评估
+
+新的评估可用于检查 Cloud Volumes ONTAP 数据是否受远程复制保护。它有助于确保您的数据保护计划遵循灾难恢复和业务连续性的最佳实践。
+
+link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["了解 Cloud Volumes ONTAP 的配置分析"]
+
+
+
+[[dismiss-entire-well-architected-configurations]]
+=== 忽略整个精心设计的配置
+
+现在，您可以从控制面板中取消整个推荐配置。这使您可以更好地控制针对您的环境显示哪些建议和评估。
+
+
+
+[[database-workload-recommendations-in-the-well-architected-dashboard]]
+=== 精心设计的仪表板中的数据库工作负载建议
+
+使用 FSx for ONTAP 的数据库工作负载建议现在可在 NetApp Console 的精心设计的仪表板中找到。您可以在一个位置查看存储资源和数据库工作负载的状态，从而全面了解基础架构的运行状况。
