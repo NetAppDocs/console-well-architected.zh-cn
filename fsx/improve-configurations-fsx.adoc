@@ -11,7 +11,7 @@ summary: 架构完善的仪表板可扫描 Amazon FSx for NetApp ONTAP 配置，
 
 
 [role="lead"]
-使用配置分析见解和建议，利用NetApp为您的 FSx for ONTAP 文件系统实施最佳实践。您可以轻松查看架构完善的状态，了解配置问题，采取行动改进任何未在可靠性、安全性、效率、性能和成本方面进行优化的系统的架构。
+NetApp 帮助您使用配置分析见解和建议为 FSx for ONTAP 文件系统实施最佳实践。您可以查看架构完善的状态，了解配置问题，并获得改进未针对可靠性、安全性、效率、性能和成本进行优化的系统架构的建议。
 
 您还可以忽略不适用于存储环境的特定存储配置的分析，以避免不必要的警报和不准确的优化结果。
 
@@ -22,11 +22,11 @@ link:configuration-analysis-fsx.html["了解配置分析和架构良好的状态
 [[about-this-task]]
 == 关于此任务
 
-良好架构仪表板每天分析 Amazon FSx for NetApp ONTAP 文件系统部署配置。每日分析提供良好架构状态、见解和建议。您可以自动修复配置问题以满足最佳实践要求。
+Workload Factory 每天都会分析 Amazon FSx for NetApp ONTAP 文件系统的部署配置。每日分析可提供架构完善的状态、洞察和建议。您可以自动修复配置问题，以满足最佳实践要求。
 
-链接或控制台代理连接允许 NetApp Console 中架构良好的仪表板对您的文件系统进行全面扫描，以查找性能、数据保护和配置方面的问题。这可确保您收到准确的见解和建议，以优化您的 FSx for ONTAP 文件系统。
+链接或控制台代理连接让 Workload Factory 能够对文件系统进行全面扫描，以查找性能、数据保护和配置方面的问题。因此，您将获得针对 FSx for ONTAP 文件系统优化的准确见解和建议。
 
-存储配置要求各不相同。您可以忽略不适用于您的存储环境的特定配置的分析。这有助于您避免不必要的警报和不准确的优化结果。
+存储配置要求各不相同。您可以忽略不适用于您的存储环境的特定配置的分析。忽略不适用的配置有助于避免不必要的警报和不准确的优化结果。
 
 
 
@@ -34,7 +34,7 @@ link:configuration-analysis-fsx.html["了解配置分析和架构良好的状态
 == 开始之前
 
 * 您必须在 AWS 帐户中link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["授予 _operations and remediation_ 权限"^]。
-* link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html["安装控制台代理"^] 或 link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["使用链接连接到 FSx for ONTAP 文件系统"]，以对文件系统资源进行最全面的分析。
+* 您必须link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html["安装 Console 代理"^]或link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["使用链接连接到 FSx for ONTAP 文件系统"]，才能对文件系统资源进行最全面的分析。
 
 
 
@@ -53,10 +53,7 @@ link:configuration-analysis-fsx.html["了解配置分析和架构良好的状态
 +
 请务必仔细阅读建议。该建议解释了未优化配置的最佳实践和潜在缺陷。
 
-. 选择以*修复*。
-+
-当*查看并修复*为选项时，请选择要修复的受影响卷。
-
+. 为单个卷选择 *Fix*，为多个卷选择 *View and fix*。如果选择 *View and fix*，请选择要修复的受影响卷。
 . 查看对话框中的摘要和操作项目，了解解决此问题后会发生什么。某些操作可能导致实例停机或服务中断。
 . 选择*继续*以修复配置问题。
 
@@ -132,7 +129,7 @@ Workload Factory 启动修复此问题的流程。选择帐户设置菜单，然
 . 选择菜单 image:workloads-menu-icon.png["汉堡菜单图标用于导航到存储、EDA、AI、数据库、VMware 和管理等工作负载。"] ，然后选择*存储*。
 . 从 Storage 菜单中，选择 *Well-architected*。
 . 选择 *Dismissed configurations*。
-. 通过配置分析确定要重新激活的卷。
+. 从配置分析中确定要重新激活的卷。
 +
 ** 对于一个卷：选择操作菜单，然后选择 *重新激活卷*。
 ** 对于多个卷：选择卷，然后选择"批量操作"旁边的 *Reactivate*。

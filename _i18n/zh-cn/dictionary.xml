@@ -106,7 +106,6 @@
   <block id="394c926099d3d2cf7e0d7477f17faf38" category="paragraph">成本优化可帮助您在保持低成本的同时为业务创造最大价值。</block>
   <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">下一步</block>
   <block id="12959707639320f789d4bb4fbba777f1" category="inline-link-macro">实施架构良好的 Cloud Volumes ONTAP 系统配置</block>
-  <block id="a5f72f42d4d49e54f3c4c72a4faac290" category="paragraph">使用配置分析见解和建议，借助 NetApp 为运行在 Microsoft Azure 存储上的 Cloud Volumes ONTAP 系统实施最佳实践。您可以轻松查看架构完善状态，了解配置问题，并获得改进任何未针对可靠性、安全性、效率、性能和成本进行优化的系统架构的建议。</block>
   <block id="2481fd47e889a8c5be960ceeee3fc039" category="inline-link-macro">了解配置分析和架构良好的状态。</block>
   <block id="87e3cbe1631f11a9fa503588a98c8d88" category="paragraph"><block ref="87e3cbe1631f11a9fa503588a98c8d88" category="inline-link-macro-rx"></block></block>
   <block id="e30c066b362527ca1f723c8014e57d99" category="inline-link-macro">添加 Cloud Volumes ONTAP 系统</block>
@@ -147,14 +146,11 @@
   <block id="e8355e7c1132891c80c2af3110068130" category="inline-link-macro">实施架构良好的 FSx for ONTAP 文件系统配置</block>
   <block id="79e27ec6fe4e85288757fae779bab815" category="inline-link-macro">授予 _operations and remediation_ 权限</block>
   <block id="357d9dd76af15c8aaf8f09990a2846a9" category="list-text">您必须在 AWS 帐户中<block ref="6f74e2a9589a6666ba7fdb81dabfc5eb" category="inline-link-macro-rx"></block>。</block>
-  <block id="a9d8fc136a7c1528e9a5743b9de2661a" category="inline-link-macro">使用链接连接到 FSx for ONTAP 文件系统</block>
   <block id="74bdd3d51d7fef35f3c1e1829b2c63fe" category="section-title">修复配置问题</block>
   <block id="4d39d4688820662a72b89ef0ab12f050" category="paragraph">您可以修复 FSx for ONTAP 文件系统或文件系统中选定卷的配置问题。您可以选择一个或多个要修复的配置。</block>
   <block id="342a19841e494c61bf9c06a5879eaffa" category="inline-image-macro">汉堡菜单图标用于导航到存储、EDA、AI、数据库、VMware 和管理等工作负载。</block>
   <block id="757a7ffb20a279d7239febb013141ad5" category="list-text">选择菜单 <block ref="d1917ed039a7bd34b3d1373e5ffc5ece" category="inline-image-macro-rx" type="image"></block> ，然后选择*存储*。</block>
   <block id="8c8656579a32ab7e80c68b10832337bb" category="list-text">从 Storage 菜单中，选择 *Well-architected*。</block>
-  <block id="8e369a2580b67427ac856eea6e4e3eb6" category="list-text">选择以*修复*。</block>
-  <block id="fe5f70c74405942514095d724e090b64" category="paragraph">当*查看并修复*为选项时，请选择要修复的受影响卷。</block>
   <block id="45b5dce37159255d07342e3102124571" category="list-text">选择*继续*以修复配置问题。</block>
   <block id="7b0f67aaae9855ca81dfbbf20c5abb2e" category="paragraph">Workload Factory 启动修复此问题的流程。选择帐户设置菜单，然后选择 *Tracker* 以查看操作状态。</block>
   <block id="a46fab6bb1626887eac54858dc05cb71" category="section-title">忽略配置分析</block>
@@ -482,23 +478,16 @@
   <block id="9123b467a31fc6f9863d4a33d8a6badc" category="sidebar">改进文件系统配置</block>
   <block id="461c5d5f90a73ed3aa1f4d477121a6cb" category="sidebar">改进系统配置</block>
   <block id="b2a386f5924b478e19e471dfee7196f1" category="paragraph">您还可以忽略不适用于存储环境的特定存储配置的分析，以避免不必要的警报和不准确的优化结果。</block>
-  <block id="947d9294996f8955f80ff03bc9f99324" category="inline-link-macro">安装控制台代理</block>
-  <block id="5b95edeaec9232eb644ac94feb361070" category="list-text"><block ref="516166149f9d9ca9d6d999bf3220e78e" category="inline-link-macro-rx"></block> 或 <block ref="f06ee96e93460df1397f1b3b70044a3e" category="inline-link-macro-rx"></block>，以对文件系统资源进行最全面的分析。</block>
   <block id="4411c3b68fd3c93bc7694b361cc21eaf" category="paragraph">请务必仔细阅读建议。该建议解释了未优化配置的最佳实践和潜在缺陷。</block>
   <block id="c37e06ff1ab011341411419a0b9135f1" category="summary">了解 NetApp Console 中精心设计的控制面板的新功能。</block>
   <block id="79a8fc85f9cfab6c1f84759be4b7d0ca" category="paragraph"><block ref="79a8fc85f9cfab6c1f84759be4b7d0ca" category="inline-link-macro-rx"></block></block>
   <block id="08df05ffdf3909a71845f2f74f5f0192" category="paragraph"><block ref="08df05ffdf3909a71845f2f74f5f0192" category="inline-link-rx"></block></block>
   <block id="011f9504247c9cd1298e36479592feba" category="summary">NetApp Console 中的架构完善仪表板每天分析 Cloud Volumes ONTAP 系统配置，以确定是否存在任何配置问题。</block>
-  <block id="6cb16892d109192c0cd1c62fbd1330a2" category="paragraph">NetApp Console 中的架构完善仪表板会定期分析存储系统配置，以确定您的 Cloud Volumes ONTAP 系统是否存在任何配置问题。发现问题时，仪表板会向您显示问题所在，并说明需要进行哪些更改，以确保您的存储系统实现最佳性能、成本效益并符合最佳实践。</block>
   <block id="ed3de084ebd57dfb5d10d8d07d5ff7c2" category="paragraph">要进行完整的 Cloud Volumes ONTAP 系统分析，您必须 <block ref="19a2c83f86e8c849ea6629f601093445" category="inline-link-macro-rx"></block> 在系统与 NetApp Console 之间建立连接。</block>
   <block id="df022fa81268ad87abe9b34e29e60ea4" category="paragraph">架构良好的仪表板评估存储配置，以提供 ONTAP 配置最佳实践的深入视图，并符合 Azure Well-Architected Framework。该评估还提出了改进和修复建议。</block>
   <block id="f52eaa2b01823c61afb346f01ff37aec" category="paragraph">可靠性可确保工作负载正确一致地执行其预期功能，即使在中断期间也是如此。</block>
   <block id="2b4d9723a34936112e4a4945c03eafb0" category="summary">精心设计的仪表板扫描 Cloud Volumes ONTAP 配置，提供见解和建议，帮助您实现卓越运营。</block>
-  <block id="d1ba3c7d12e9fa88a8e12a675029080d" category="paragraph">精心设计的仪表板每天分析 Cloud Volumes ONTAP 系统在 Microsoft Azure 上的部署配置。每日分析提供精心设计的状态、见解和建议。</block>
-  <block id="8939d3be821890ad665739df92be085d" category="paragraph">链接或控制台代理连接允许 NetApp Console 中架构良好的仪表板对您的 Cloud Volumes ONTAP 系统进行全面扫描，以查找性能、数据保护和配置方面的问题。这可确保您收到准确的见解和建议，以优化您的 Cloud Volumes ONTAP 系统。</block>
-  <block id="5c210c8aeffa54017d256fabfef0d620" category="paragraph">存储配置要求各不相同。您可以忽略不适用于您的存储环境的特定配置的分析。这有助于您避免不必要的警报和不准确的优化结果。</block>
   <block id="7d8ce54875dd8d37c61d873a00e8d034" category="summary">架构完善的信息板会定期分析 FSx for ONTAP 文件系统配置，以确定是否存在任何配置问题。</block>
-  <block id="a9ba022bf75efb74937dee5a733b2349" category="paragraph">NetApp Console 中的架构完善仪表板定期分析存储系统配置，以确定您的 Amazon FSx for NetApp ONTAP 文件系统是否存在任何配置问题。发现问题时，仪表板会向您显示问题所在，并解释需要更改的内容，以确保您的存储系统实现最佳性能、成本效益和最佳实践合规性。</block>
   <block id="3ce760239f38234fc2c8c277efe0bd25" category="list-text"><block ref="e519545489e6eab66fe63f918fb84c99" category="inline-link-macro-rx"></block> 或 <block ref="a06f2f34fedf48ea46300ba646899766" category="inline-link-macro-rx"></block> 以设置文件系统与 NetApp Console 之间的连接。</block>
   <block id="782a430d789ff1db80e40fbe9c0be819" category="paragraph">精心设计的仪表板根据 ONTAP 最佳实践和 AWS Well-Architected Framework 评估存储配置。该评估还提出了改进和修复建议。</block>
   <block id="fb0db5246d7e15caadfb931bef38413c" category="paragraph">跨区域复制可确保将您的数据复制到另一个 AWS 区域，从而提高数据持久性和可用性。设置跨区域复制以支持灾难恢复和合规性。</block>
@@ -506,20 +495,12 @@
   <block id="9782f948325708f7c9a12b48ab18675e" category="paragraph">应提高文件容量阈值，以避免达到卷容量限制。低文件容量（索引节点）会阻止向卷写入其他数据。Workload Factory 建议将文件容量利用率保持在 80% 以下，以允许创建新文件。</block>
   <block id="358a04c23a2e8b7a739dbfc478ae8427" category="paragraph">Workload Factory 建议卷容量不超过 80% 的利用率。这可能会影响对应用程序的数据读取和写入。卷容量可以手动增加，也可以使用卷自动扩展功能自动增加。</block>
   <block id="cdbdf3ae7b11d60e8f117000f407abdd" category="summary">架构完善的仪表板可扫描 Amazon FSx for NetApp ONTAP 配置，为您提供见解和建议，帮助您实现卓越运营。</block>
-  <block id="994563f8c4fb5e35f528265f7b5eb386" category="paragraph">使用配置分析见解和建议，利用NetApp为您的 FSx for ONTAP 文件系统实施最佳实践。您可以轻松查看架构完善的状态，了解配置问题，采取行动改进任何未在可靠性、安全性、效率、性能和成本方面进行优化的系统的架构。</block>
   <block id="bca076b9764e88630a27e6313a438554" category="paragraph"><block ref="bca076b9764e88630a27e6313a438554" category="inline-link-macro-rx"></block></block>
-  <block id="17d02c3c664501a80a6f0a33f4108847" category="paragraph">良好架构仪表板每天分析 Amazon FSx for NetApp ONTAP 文件系统部署配置。每日分析提供良好架构状态、见解和建议。您可以自动修复配置问题以满足最佳实践要求。</block>
-  <block id="4f3a813979955ee2205115a6469c8e63" category="paragraph">链接或控制台代理连接允许 NetApp Console 中架构良好的仪表板对您的文件系统进行全面扫描，以查找性能、数据保护和配置方面的问题。这可确保您收到准确的见解和建议，以优化您的 FSx for ONTAP 文件系统。</block>
   <block id="1b8db5117986eea2dcce46960208ea8f" category="paragraph">修复配置问题可能会导致实例停机或服务中断。在修复配置问题之前，请仔细阅读每个建议。</block>
   <block id="d3bd8654e436a8de8573cf28ce4e5017" category="list-text">查看对话框中的摘要和操作项目，了解解决此问题后会发生什么。某些操作可能导致实例停机或服务中断。</block>
   <block id="2a8f138f76dd4c03602510d60c886540" category="list-text">在 Well-architected 仪表板中，选择 *Dismissed configurations*。</block>
   <block id="d27dac0f3ad735d6a4435ca9410321e1" category="paragraph">配置分析重新激活。Workload Factory 每天运行新的分析。</block>
   <block id="8dee1d3b9574cb8e16a1526b5be97352" category="summary">NetApp Console 中的架构完善仪表板可扫描系统配置，以评估可靠性、安全性、卓越运营、成本优化和性能效率，并提供见解和建议，帮助您实现卓越运营。</block>
-  <block id="00f2499c6b6a88141fd9dfd12ec43415" category="paragraph">NetApp Console 中的精心设计的仪表板可帮助您维护和操作可靠、安全、高效且经济高效的配置，这些配置与您使用的存储类型的精心设计的框架保持一致。该仪表板提供跨账户和区域的统一视图，帮助团队识别风险并确定其优先级，并支持针对特定要求的自定义规则。对存储系统配置的每日自动扫描可提供见解和建议，以帮助您优化存储环境。</block>
-  <block id="24fbb988a06fac1e923be0806df2c5e1" category="paragraph">精心设计的仪表板每天都会分析您的配置。该分析提供了精心设计的状态、见解和建议。</block>
-  <block id="97e62c55a59839f12cf04d1c8058970b" category="paragraph">每日分析完成后，配置在架构良好的仪表板中显示为"优化"或"未优化"。您可以找到总优化分数、按类别列出的配置问题以及配置问题和建议列表。您可以查看配置问题的建议。某些问题可以通过架构良好的仪表板自动修复，而其他问题则需要手动干预。在此情况下，架构良好的仪表板会提供详细说明，以帮助您实施建议的更改。</block>
-  <block id="573d97edca566706def0591f71e6ff4b" category="paragraph">您可以忽略不适用于您环境的配置分析。这样可以避免不必要的警报和不准确的优化结果。当您忽略特定配置分析时，架构完善的仪表板不会将该配置计入总优化分数。</block>
-  <block id="23c968b7f3a3d7f48b09672bade35ce8" category="paragraph">NetApp Console 中的精心设计仪表板通过将持续评估与建议见解和补救措施相结合，将最佳实践应用于大型存储、数据库和 VMware 环境。在精心设计的仪表板中应用的自动补救措施可减少人为错误，确保统一管理，并保持整个系统基础架构的性能和可靠性。</block>
   <block id="63fbe13ca7ea89f88ab4f377def52e56" category="paragraph">Console 中架构完善的信息板支持以下存储系统：</block>
   <block id="edd854bc8fa69e282718b3a59e15995a" category="doc">NetApp Console 中精心设计的控制面板的新增功能</block>
   <block id="e934f48b300109b5939d0cbed21d591e" category="sidebar">NetApp Console 中的精心设计的控制面板可帮助您维护可靠、安全、高效且经济高效的存储配置，使其与存储类型的精心设计的框架保持一致。精心设计的控制面板提供跨账户和区域的统一视图，帮助团队识别风险并确定其优先级，并支持针对特定要求的自定义规则。</block>
@@ -636,7 +617,6 @@
   <block id="9734fa1668ca0b65477c528e1024d6a1" category="inline-link-macro">Google Cloud NetApp Volumes 的配置分析</block>
   <block id="63703f359f410e2c981eed9b102fdf93" category="paragraph">详细了解<block ref="a1a9e128c0fafd7c1526a7b783f92760" category="inline-link-macro-rx"></block>。</block>
   <block id="05029207853354642479203b2397ee75" category="summary">NetApp Console 会定期分析存储系统配置，以确定是否存在任何配置问题。</block>
-  <block id="d1105940d035a158565dfb73958010e1" category="paragraph">NetApp Console 中架构良好的控制面板定期分析存储系统配置，以确定是否存在任何配置问题。发现问题时，控制面板会向您显示问题所在，并解释需要更改的内容，以确保您的存储系统实现最佳性能、成本效益和符合最佳实践。</block>
   <block id="1a47b8defb4d7d06bba18c483c447b3d" category="paragraph">要进行完整的存储池分析，必须执行以下操作：</block>
   <block id="356cd648ad799f2eb92aa086872fc932" category="inline-link-macro">将您的 Google Cloud NetApp Volumes 系统添加到 NetApp Console</block>
   <block id="a03acef5fcdb9180f0811d46c7421b0f" category="list-text"><block ref="6ea9c63ba945b3cb96bff5e211bb3f99" category="inline-link-macro-rx"></block>。</block>
@@ -650,10 +630,7 @@
   <block id="f793fba5432b14d544dc9553f3dba075" category="inline-link-macro">实施精心设计的 Google Cloud NetApp Volumes 配置</block>
   <block id="5ec047b28053268ed0ad18838887d2a3" category="paragraph"><block ref="5ec047b28053268ed0ad18838887d2a3" category="inline-link-macro-rx"></block></block>
   <block id="1fbc6d00faf337e60116deb7a9436737" category="summary">Workload Factory 扫描 Google Cloud NetApp Volumes 配置，提供见解和建议，帮助您实现卓越运营。</block>
-  <block id="5bf39b6df69484117b7a94f73c047bec" category="paragraph">利用配置分析见解和建议，借助 NetApp 为运行在 Google Cloud 存储上的 Google Cloud NetApp Volumes 存储池实施最佳实践。您可以轻松查看架构完善状态，了解配置问题，并获取针对未在可靠性、安全性、性能和成本方面进行优化的存储池的架构改进建议。</block>
   <block id="1269bb270aa667888f34bfd5203e5e88" category="paragraph"><block ref="1269bb270aa667888f34bfd5203e5e88" category="inline-link-macro-rx"></block></block>
-  <block id="7d1ff00602d5a32748c6468a1bf8908e" category="paragraph">NetApp 每天分析 Google Cloud 中的 Google Cloud NetApp Volumes 存储池部署。每日分析提供架构完善状态、见解和建议，帮助您了解配置问题，从而使存储池符合最佳实践。</block>
-  <block id="d0d02e6506e8567d2ac0bb5ca6e21b91" category="paragraph">日常分析完成后，仪表板将显示架构良好的资源总数、处于关键状态的资源数以及处于警告状态的资源数。配置按照架构完善的框架的支柱进行分类：可靠性、卓越运营、成本优化、性能效率和安全性。仪表板还包括一个表，其中列出了所有配置、这些配置的良好架构状态、严重性、类别、资源类型（卷或存储池）、受影响的资源，以及在配置未优化时查看建议的选项。</block>
   <block id="f21564fb71fad839082e8c15cb010c91" category="inline-link-macro">添加 Google Cloud NetApp Volumes 存储池</block>
   <block id="a0b5edb9fd5c7fc4af08ec7f9d8f5ac4" category="list-text">您必须<block ref="c1fd87c15a6ed0202ad48d3bb45d685c" category="inline-link-macro-rx"></block>登录 NetApp Console，才能查看配置问题的良好架构状态和建议。</block>
   <block id="8dc69cd01e974d0a8cfceb0224c8eac3" category="paragraph">停止对 Google Cloud NetApp Volumes 存储池或选定卷的配置分析。您可以在需要时重新启动分析。</block>
@@ -694,4 +671,36 @@
   <block id="1b050fa37a029d628899a5bd2e48783f" category="doc">在 NetApp Console 中管理自定义规则</block>
   <block id="277894237bef57e14299dc8b3b8b5f13" category="doc">注册以获得 NetApp Console 支持</block>
   <block id="1641126472d40ab162e3acf05ac611ba" category="section-title">2026年8月30日</block>
+  <block id="ee3e9d951c79faa2be7ec2e79fdaf3dd" category="paragraph">Workload Factory 定期分析存储系统配置，以确定您的 Cloud Volumes ONTAP 系统是否存在任何配置问题。当发现问题时，精心设计的控制面板将显示问题所在以及需要更改的建议，以确保您的存储系统实现最佳性能、成本效益并符合最佳实践。</block>
+  <block id="4db74ad01cf2ea08d4f2164df365ded9" category="paragraph">NetApp 帮助您使用配置分析见解和建议，为运行在 Microsoft Azure 存储上的 Cloud Volumes ONTAP 系统实施最佳实践。您可以查看架构完善的状态，了解配置问题，并获得改进未针对可靠性、安全性、效率、性能和成本进行优化的系统架构的建议。</block>
+  <block id="643907ab32cbc54a122e00dcd6007940" category="paragraph">Workload Factory 每天分析 Microsoft Azure 上的 Cloud Volumes ONTAP 系统配置。每日分析提供架构完善状态、洞察信息和建议。您可以自动修复配置问题，以符合最佳实践要求。</block>
+  <block id="cc770991dfccb9d96b48fe71b42367b1" category="paragraph">通过链接或控制台代理连接，NetApp Workload Factory 可以对您的 Cloud Volumes ONTAP 系统进行全面扫描，以检查性能、数据保护和配置方面的问题。这可确保您收到准确的见解和建议，以优化您的 Cloud Volumes ONTAP 系统。</block>
+  <block id="a9fdfdd2e4436f6280a2ad97157bf1ba" category="paragraph">存储配置要求各不相同。您可以忽略不适用于您的存储环境的特定配置的分析。忽略不适用的配置有助于避免不必要的警报和不准确的优化结果。</block>
+  <block id="ee8dfdc9fde9044fcb28ead9843724b4" category="list-text">为单个卷选择*修复*，为多个卷选择*查看并修复*。对于多个卷，选择要修复的受影响卷。</block>
+  <block id="53548cd298e2e53917005c91800a7cbc" category="paragraph">Workload Factory 会定期分析存储系统配置，以确定您的 Amazon FSx for NetApp ONTAP 文件系统是否存在任何配置问题。当发现问题时，良好架构控制面板会显示问题所在以及需要更改的建议，以确保您的存储系统实现最佳性能、成本效益和最佳实践合规性。</block>
+  <block id="e06dad131e30edefa5e6dbdfb1d8f9ec" category="paragraph">NetApp 帮助您使用配置分析见解和建议为 FSx for ONTAP 文件系统实施最佳实践。您可以查看架构完善的状态，了解配置问题，并获得改进未针对可靠性、安全性、效率、性能和成本进行优化的系统架构的建议。</block>
+  <block id="045b2f9ca069aeca41da9ffb035a8aa9" category="paragraph">Workload Factory 每天都会分析 Amazon FSx for NetApp ONTAP 文件系统的部署配置。每日分析可提供架构完善的状态、洞察和建议。您可以自动修复配置问题，以满足最佳实践要求。</block>
+  <block id="e4eebe121d284466b50faa46dec0cda9" category="paragraph">链接或控制台代理连接让 Workload Factory 能够对文件系统进行全面扫描，以查找性能、数据保护和配置方面的问题。因此，您将获得针对 FSx for ONTAP 文件系统优化的准确见解和建议。</block>
+  <block id="6ffd2376c7aaaca4975b1f06f24193c7" category="inline-link-macro">安装 Console 代理</block>
+  <block id="709be97721c78cba90770231b1263a14" category="inline-link-macro">使用链接连接到 FSx for ONTAP 文件系统</block>
+  <block id="65179ff6728d2d8faef1a99d7f55f6dd" category="list-text">您必须<block ref="820a9225e29d6d4b9bc54d71d1eeb569" category="inline-link-macro-rx"></block>或<block ref="13912c59a5ea303190d1db0c6a5f11f5" category="inline-link-macro-rx"></block>，才能对文件系统资源进行最全面的分析。</block>
+  <block id="b989a53cfcc551a78e451e9bd6b86a6e" category="list-text">为单个卷选择 *Fix*，为多个卷选择 *View and fix*。如果选择 *View and fix*，请选择要修复的受影响卷。</block>
+  <block id="39da1b17152d7871cd1a04ff715358e2" category="list-text">从配置分析中确定要重新激活的卷。</block>
+  <block id="7b13fb7d44ed98f093de9f3dd8d11cb6" category="paragraph">Workload Factory 会定期分析存储系统配置，以确定是否存在任何配置问题。当发现问题时，NetApp Console 中的良好架构控制面板会显示问题所在，并解释需要更改的内容，以确保您的存储系统达到最佳性能、成本效益并符合最佳实践。</block>
+  <block id="5d53284fb4850094d575eb9c0096fe4a" category="paragraph">NetApp 使用配置分析见解和建议，帮助您为 Google Cloud NetApp Volumes 存储池实施最佳实践。您可以查看架构完善状态，了解配置问题，并获得改进未在可靠性、安全性、效率、性能和成本方面进行优化的存储池架构的建议。</block>
+  <block id="fee7ee6c35710723ba710f440950ec24" category="paragraph">NetApp 每天分析您的 Google Cloud NetApp Volumes 存储池配置。每日分析提供架构完善状态、见解和建议，帮助您了解配置问题，从而使您的存储池符合最佳实践。</block>
+  <block id="58106dc77a145acb5b9f958b8c944c32" category="paragraph">链接或控制台代理连接让 Workload Factory 能够对文件系统进行全面扫描，以发现性能、数据保护和配置方面的问题。因此，您将获得有关优化 Google Cloud NetApp Volumes 存储池的准确见解和建议。</block>
+  <block id="0368421628656695faa02aba1e7fafc6" category="paragraph">日常分析完成后，架构良好的仪表板会显示架构良好的资源总数、处于关键状态的资源数以及处于警告状态的资源数。配置按照架构完善的框架的支柱进行分类：可靠性、卓越运营、成本优化、性能效率和安全性。仪表板还包括一个列出所有配置的表格。对于每个配置，下表显示：</block>
+  <block id="1ea595e897db3a6c2ebf632b09f893a7" category="list-text">架构完善状态</block>
+  <block id="88fc175a314d22757d9562f6ca85f39c" category="list-text">严重程度</block>
+  <block id="80b1ec0e89bd7572cc1f804e7b6589d5" category="list-text">该类别</block>
+  <block id="8c4ac5176555925ce14fd3b1be3c8cb1" category="list-text">资源类型（卷或存储池）</block>
+  <block id="90965760f6e212d3c1adb1ae943da7b4" category="list-text">受影响的资源</block>
+  <block id="3b8bdf195417f71fd13dc074d454c9d1" category="list-text">在配置未优化时查看建议的选项</block>
+  <block id="d1eb4860a9f8c5e03980d78b93e3c145" category="paragraph">（可选）选择 <block ref="c3c5eb7aac1d65e20d3c0a3a1b74a986" category="inline-image-macro-rx" type="image"></block> 以下载所有配置建议的 CSV 文件。</block>
+  <block id="969bb8c9e1608f3c46000b160dbf8c50" category="paragraph">NetApp Workload Factory 可帮助您维护和操作可靠、安全、高效且经济高效的配置，这些配置与您使用的存储类型的良好架构框架保持一致。NetApp Console 中的良好架构仪表板提供了跨账户和区域的统一视图，可帮助团队识别风险并确定其优先级，并支持针对特定要求的自定义规则。对存储系统配置的每日自动扫描可提供见解和建议，以帮助您优化存储环境。</block>
+  <block id="a081c06e09e507c759e7f4cce85691e2" category="paragraph">Workload Factory 每天分析您的配置。该分析提供架构完善的状态、见解和建议，帮助您优化存储环境。</block>
+  <block id="e1379bec6448939dd8c8e64956276571" category="paragraph">日常分析完成后，配置在架构良好的仪表板中显示为"优化"或"未优化"。您可以按架构良好的框架类别（可靠性、安全性、卓越运营、成本优化和性能效率）找到配置问题，并列出配置问题和建议。Workload Factory 可以自动修复某些问题，而其他问题则需要手动干预。在此情况下，建议会提供详细说明，以帮助您实施更改。</block>
+  <block id="1051d8d8b259af6af090187b5a6f6c2c" category="paragraph">您可以忽略不适用于您环境的配置分析。忽略配置可避免不必要的警报和不准确的优化结果。</block>
+  <block id="6d2ee57779e107d410d741c1c85b6b44" category="paragraph">NetApp Workload Factory 通过将持续评估与建议见解和补救措施相结合，将最佳实践应用于大型存储、数据库和 VMware 环境。自动补救可减少人为错误，确保统一管理，并保持整个系统基础架构的性能和可靠性。</block>
 </blocks>

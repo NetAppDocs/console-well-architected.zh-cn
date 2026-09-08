@@ -11,7 +11,7 @@ summary: NetApp Console 中的架构完善仪表板每天分析 Cloud Volumes ON
 
 
 [role="lead"]
-NetApp Console 中的架构完善仪表板会定期分析存储系统配置，以确定您的 Cloud Volumes ONTAP 系统是否存在任何配置问题。发现问题时，仪表板会向您显示问题所在，并说明需要进行哪些更改，以确保您的存储系统实现最佳性能、成本效益并符合最佳实践。
+Workload Factory 定期分析存储系统配置，以确定您的 Cloud Volumes ONTAP 系统是否存在任何配置问题。当发现问题时，精心设计的控制面板将显示问题所在以及需要更改的建议，以确保您的存储系统实现最佳性能、成本效益并符合最佳实践。
 
 主要功能包括：
 

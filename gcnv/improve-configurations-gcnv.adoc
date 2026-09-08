@@ -11,7 +11,7 @@ summary: Workload Factory 扫描 Google Cloud NetApp Volumes 配置，提供见�
 
 
 [role="lead"]
-利用配置分析见解和建议，借助 NetApp 为运行在 Google Cloud 存储上的 Google Cloud NetApp Volumes 存储池实施最佳实践。您可以轻松查看架构完善状态，了解配置问题，并获取针对未在可靠性、安全性、性能和成本方面进行优化的存储池的架构改进建议。
+NetApp 使用配置分析见解和建议，帮助您为 Google Cloud NetApp Volumes 存储池实施最佳实践。您可以查看架构完善状态，了解配置问题，并获得改进未在可靠性、安全性、效率、性能和成本方面进行优化的存储池架构的建议。
 
 link:configuration-analysis-gcnv.html["了解配置分析和架构良好的状态。"]
 
@@ -20,9 +20,21 @@ link:configuration-analysis-gcnv.html["了解配置分析和架构良好的状�
 [[about-this-task]]
 == 关于此任务
 
-NetApp 每天分析 Google Cloud 中的 Google Cloud NetApp Volumes 存储池部署。每日分析提供架构完善状态、见解和建议，帮助您了解配置问题，从而使存储池符合最佳实践。
+NetApp 每天分析您的 Google Cloud NetApp Volumes 存储池配置。每日分析提供架构完善状态、见解和建议，帮助您了解配置问题，从而使您的存储池符合最佳实践。
 
-日常分析完成后，仪表板将显示架构良好的资源总数、处于关键状态的资源数以及处于警告状态的资源数。配置按照架构完善的框架的支柱进行分类：可靠性、卓越运营、成本优化、性能效率和安全性。仪表板还包括一个表，其中列出了所有配置、这些配置的良好架构状态、严重性、类别、资源类型（卷或存储池）、受影响的资源，以及在配置未优化时查看建议的选项。
+链接或控制台代理连接让 Workload Factory 能够对文件系统进行全面扫描，以发现性能、数据保护和配置方面的问题。因此，您将获得有关优化 Google Cloud NetApp Volumes 存储池的准确见解和建议。
+
+存储配置要求各不相同。您可以忽略不适用于您的存储环境的特定配置的分析。忽略不适用的配置有助于避免不必要的警报和不准确的优化结果。
+
+日常分析完成后，架构良好的仪表板会显示架构良好的资源总数、处于关键状态的资源数以及处于警告状态的资源数。配置按照架构完善的框架的支柱进行分类：可靠性、卓越运营、成本优化、性能效率和安全性。仪表板还包括一个列出所有配置的表格。对于每个配置，下表显示：
+
+* 架构完善状态
+* 严重程度
+* 该类别
+* 资源类型（卷或存储池）
+* 受影响的资源
+* 在配置未优化时查看建议的选项
+
 
 
 
@@ -118,7 +130,7 @@ NetApp 每天分析 Google Cloud 中的 Google Cloud NetApp Volumes 存储池部
 . 登录到 link:https://console.netapp.com/home["NetApp Console"^]。
 . 从 NetApp Console 菜单中，选择 *Workloads*，然后选择 *Well-architected*。
 . 选择 *Dismissed configurations*。
-. 通过配置分析确定要重新激活的卷。
+. 从配置分析中确定要重新激活的卷。
 +
 ** 对于一个卷：选择操作菜单，然后选择 *重新激活卷*。
 ** 对于多个卷：选择卷，然后选择"批量操作"旁边的 *Reactivate*。
