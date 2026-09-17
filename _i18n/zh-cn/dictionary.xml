@@ -88,7 +88,6 @@
   <block id="3583e4a3e4e2e122cff65b8ad9045348" category="list-text">主动可观察性</block>
   <block id="16fcd85dc9469370b62b4b46381f8e2a" category="list-text">从见解到行动</block>
   <block id="3f6f8b4e204fd3aa39cac35661de164d" category="section-title">分析要求</block>
-  <block id="021c4674734853c034b954078fa080f3" category="inline-link-macro">部署 NetApp Console agent</block>
   <block id="f064aed6dd86a2b762ecf9bcf528b941" category="section-title">Cloud Volumes ONTAP 系统的最佳实践和建议</block>
   <block id="ffd9fc00ab43b8283346c6266e00d684" category="paragraph">架构完善的分析将配置归类为框架的以下支柱：_reliability_、_security_、_operational excellence_、_cost optimization_ 和 _performance efficiency_。</block>
   <block id="820b8f74ad843d1574106ec4cadfc07e" category="section-title">可靠性</block>
@@ -483,7 +482,6 @@
   <block id="79a8fc85f9cfab6c1f84759be4b7d0ca" category="paragraph"><block ref="79a8fc85f9cfab6c1f84759be4b7d0ca" category="inline-link-macro-rx"></block></block>
   <block id="08df05ffdf3909a71845f2f74f5f0192" category="paragraph"><block ref="08df05ffdf3909a71845f2f74f5f0192" category="inline-link-rx"></block></block>
   <block id="011f9504247c9cd1298e36479592feba" category="summary">NetApp Console 中的架构完善仪表板每天分析 Cloud Volumes ONTAP 系统配置，以确定是否存在任何配置问题。</block>
-  <block id="ed3de084ebd57dfb5d10d8d07d5ff7c2" category="paragraph">要进行完整的 Cloud Volumes ONTAP 系统分析，您必须 <block ref="19a2c83f86e8c849ea6629f601093445" category="inline-link-macro-rx"></block> 在系统与 NetApp Console 之间建立连接。</block>
   <block id="df022fa81268ad87abe9b34e29e60ea4" category="paragraph">架构良好的仪表板评估存储配置，以提供 ONTAP 配置最佳实践的深入视图，并符合 Azure Well-Architected Framework。该评估还提出了改进和修复建议。</block>
   <block id="f52eaa2b01823c61afb346f01ff37aec" category="paragraph">可靠性可确保工作负载正确一致地执行其预期功能，即使在中断期间也是如此。</block>
   <block id="2b4d9723a34936112e4a4945c03eafb0" category="summary">精心设计的仪表板扫描 Cloud Volumes ONTAP 配置，提供见解和建议，帮助您实现卓越运营。</block>
@@ -651,7 +649,6 @@
   <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">2026年8月10日</block>
   <block id="33f99db970bd78e039b488318b97f37e" category="section-title">在架构完善的仪表板中更新了配置名称</block>
   <block id="f757183a2ec8b22ec352eea98a6e4f53" category="paragraph">NetApp Console 中的架构完善仪表板现在包含新的存储配置名称。</block>
-  <block id="1ee2856eba991f06fff41aa25f053f64" category="paragraph">您还必须建立到以下端点的出站连接：</block>
   <block id="0eda8bbe61d2248f5418aba76b8dc5b1" category="list-text">\https://api.workloads.netapp.com</block>
   <block id="9f45fe3cd2af64a1afc3f4b7f81bdae6" category="list-text">\https://ws.workloads.bluexp.netapp.com</block>
   <block id="0199e3b5e3c5c22e842b51ede658f164" category="list-text">允许出站网络连接到以下端点：</block>
@@ -703,4 +700,5 @@
   <block id="e1379bec6448939dd8c8e64956276571" category="paragraph">日常分析完成后，配置在架构良好的仪表板中显示为"优化"或"未优化"。您可以按架构良好的框架类别（可靠性、安全性、卓越运营、成本优化和性能效率）找到配置问题，并列出配置问题和建议。Workload Factory 可以自动修复某些问题，而其他问题则需要手动干预。在此情况下，建议会提供详细说明，以帮助您实施更改。</block>
   <block id="1051d8d8b259af6af090187b5a6f6c2c" category="paragraph">您可以忽略不适用于您环境的配置分析。忽略配置可避免不必要的警报和不准确的优化结果。</block>
   <block id="6d2ee57779e107d410d741c1c85b6b44" category="paragraph">NetApp Workload Factory 通过将持续评估与建议见解和补救措施相结合，将最佳实践应用于大型存储、数据库和 VMware 环境。自动补救可减少人为错误，确保统一管理，并保持整个系统基础架构的性能和可靠性。</block>
+  <block id="54675850f07c5f375dabbd24ce963055" category="paragraph">确保与 Cloud Volumes ONTAP 关联的 Console 代理能够访问以下端点：</block>
 </blocks>
