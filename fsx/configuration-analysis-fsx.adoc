@@ -48,7 +48,7 @@ Workload Factory 通过将持续评估与建议见解和补救措施相结合，
 
 要进行完整的文件系统分析，必须执行以下操作：
 
-* link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html#agent-console-deploy["部署 NetApp Console agent"^] 或 link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["关联链接"^] 以设置文件系统与 NetApp Console 之间的连接。
+* link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html#agent-console-deploy["部署 NetApp Console agent"^] 或 link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["关联链接"^] 以设置文件系统与 NetApp Console 之间的连接。
 * 在您的 AWS 账户中授予查看、规划和分析权限。
 +
 link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["了解如何向 AWS 帐户授予权限"^]

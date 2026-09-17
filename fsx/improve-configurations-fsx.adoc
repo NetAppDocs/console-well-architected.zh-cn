@@ -34,7 +34,7 @@ Workload Factory 每天都会分析 Amazon FSx for NetApp ONTAP 文件系统的�
 == 开始之前
 
 * 您必须在 AWS 帐户中link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["授予 _operations and remediation_ 权限"^]。
-* 您必须link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html["安装 Console 代理"^]或link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["使用链接连接到 FSx for ONTAP 文件系统"]，才能对文件系统资源进行最全面的分析。
+* 您必须link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html["安装 Console 代理"^]或link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["使用链接连接到 FSx for ONTAP 文件系统"]，才能对文件系统资源进行最全面的分析。
 
 
 

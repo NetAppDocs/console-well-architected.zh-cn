@@ -486,7 +486,6 @@
   <block id="f52eaa2b01823c61afb346f01ff37aec" category="paragraph">可靠性可确保工作负载正确一致地执行其预期功能，即使在中断期间也是如此。</block>
   <block id="2b4d9723a34936112e4a4945c03eafb0" category="summary">精心设计的仪表板扫描 Cloud Volumes ONTAP 配置，提供见解和建议，帮助您实现卓越运营。</block>
   <block id="7d8ce54875dd8d37c61d873a00e8d034" category="summary">架构完善的信息板会定期分析 FSx for ONTAP 文件系统配置，以确定是否存在任何配置问题。</block>
-  <block id="3ce760239f38234fc2c8c277efe0bd25" category="list-text"><block ref="e519545489e6eab66fe63f918fb84c99" category="inline-link-macro-rx"></block> 或 <block ref="a06f2f34fedf48ea46300ba646899766" category="inline-link-macro-rx"></block> 以设置文件系统与 NetApp Console 之间的连接。</block>
   <block id="782a430d789ff1db80e40fbe9c0be819" category="paragraph">精心设计的仪表板根据 ONTAP 最佳实践和 AWS Well-Architected Framework 评估存储配置。该评估还提出了改进和修复建议。</block>
   <block id="fb0db5246d7e15caadfb931bef38413c" category="paragraph">跨区域复制可确保将您的数据复制到另一个 AWS 区域，从而提高数据持久性和可用性。设置跨区域复制以支持灾难恢复和合规性。</block>
   <block id="5a0e6732f4b279b7f8151534487bbe55" category="paragraph">SSD存储层容量不应超过80%的利用率。这可能会影响对容量池存储层的数据读取和写入，并影响文件系统的吞吐量。当容量耗尽时，数据卷将变为只读。尝试写入新数据的服务也会失败。</block>
@@ -680,7 +679,6 @@
   <block id="e4eebe121d284466b50faa46dec0cda9" category="paragraph">链接或控制台代理连接让 Workload Factory 能够对文件系统进行全面扫描，以查找性能、数据保护和配置方面的问题。因此，您将获得针对 FSx for ONTAP 文件系统优化的准确见解和建议。</block>
   <block id="6ffd2376c7aaaca4975b1f06f24193c7" category="inline-link-macro">安装 Console 代理</block>
   <block id="709be97721c78cba90770231b1263a14" category="inline-link-macro">使用链接连接到 FSx for ONTAP 文件系统</block>
-  <block id="65179ff6728d2d8faef1a99d7f55f6dd" category="list-text">您必须<block ref="820a9225e29d6d4b9bc54d71d1eeb569" category="inline-link-macro-rx"></block>或<block ref="13912c59a5ea303190d1db0c6a5f11f5" category="inline-link-macro-rx"></block>，才能对文件系统资源进行最全面的分析。</block>
   <block id="b989a53cfcc551a78e451e9bd6b86a6e" category="list-text">为单个卷选择 *Fix*，为多个卷选择 *View and fix*。如果选择 *View and fix*，请选择要修复的受影响卷。</block>
   <block id="39da1b17152d7871cd1a04ff715358e2" category="list-text">从配置分析中确定要重新激活的卷。</block>
   <block id="7b13fb7d44ed98f093de9f3dd8d11cb6" category="paragraph">Workload Factory 会定期分析存储系统配置，以确定是否存在任何配置问题。当发现问题时，NetApp Console 中的良好架构控制面板会显示问题所在，并解释需要更改的内容，以确保您的存储系统达到最佳性能、成本效益并符合最佳实践。</block>
@@ -701,4 +699,6 @@
   <block id="1051d8d8b259af6af090187b5a6f6c2c" category="paragraph">您可以忽略不适用于您环境的配置分析。忽略配置可避免不必要的警报和不准确的优化结果。</block>
   <block id="6d2ee57779e107d410d741c1c85b6b44" category="paragraph">NetApp Workload Factory 通过将持续评估与建议见解和补救措施相结合，将最佳实践应用于大型存储、数据库和 VMware 环境。自动补救可减少人为错误，确保统一管理，并保持整个系统基础架构的性能和可靠性。</block>
   <block id="54675850f07c5f375dabbd24ce963055" category="paragraph">确保与 Cloud Volumes ONTAP 关联的 Console 代理能够访问以下端点：</block>
+  <block id="76a31cd6a7131cd21109cee81fd94902" category="list-text"><block ref="e519545489e6eab66fe63f918fb84c99" category="inline-link-macro-rx"></block> 或 <block ref="1c85a9585130a3e66370d665193250bb" category="inline-link-macro-rx"></block> 以设置文件系统与 NetApp Console 之间的连接。</block>
+  <block id="5be624540f07772a5d8aaac43ebbcfa8" category="list-text">您必须<block ref="820a9225e29d6d4b9bc54d71d1eeb569" category="inline-link-macro-rx"></block>或<block ref="773b862b73888ba0f103d451af29397c" category="inline-link-macro-rx"></block>，才能对文件系统资源进行最全面的分析。</block>
 </blocks>
