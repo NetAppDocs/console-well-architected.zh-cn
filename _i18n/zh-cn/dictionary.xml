@@ -47,7 +47,6 @@
   <block id="7d84a0d9d14a5f050503a7b9b00b3435" category="paragraph">人工智能可能会要求您从几个选项中进行选择，以更好地了解您的需求。回答每个问题并选择*继续*，或选择*跳过*以跳过可选问题。</block>
   <block id="f7dd96479a94850934674d003fe54f52" category="list-text">回答完所有问题后，选择*继续*以创建规则。</block>
   <block id="66178252f08edeeeeda7bfc5ebf5227b" category="section-title">测试规则</block>
-  <block id="0362b2cfbfe0db96dc282024dbd64841" category="paragraph">在安排规则之前，请运行一次性测试，以查看它将影响哪些资源。</block>
   <block id="e0924f9cecf28912d6b59208f0ee9242" category="list-text">选择*验证规则*。</block>
   <block id="87d68b4e906936ea67c73d25fddbb199" category="paragraph">系统根据您的规则逻辑评估范围内的所有资源。</block>
   <block id="6ad0887ee719e958ea66bc1d5ca7ed60" category="list-text">请查看验证结果：</block>
@@ -60,10 +59,8 @@
   <block id="1bb9a202a6c7284b2727618b6b42d1bf" category="list-text">*连接错误*：可能未为特定文件系统配置链接或代理</block>
   <block id="6601c2de36f9d2c2a63a21c9170e4bae" category="list-text">*ONTAP 权限错误*：查看器用户可能无权访问某些资源</block>
   <block id="24a910eeb4468fa91fa54136e064eb5d" category="section-title">保存或计划此规则</block>
-  <block id="8c7715e49e638258c4536fec9aff1f6e" category="paragraph">测试规则后，您可以将其保存为草稿或将其设置为定期运行。</block>
   <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">执行以下操作之一：</block>
   <block id="8c080127194fcaf624649c3bab095baa" category="list-text">要安排定期评估，请设置评估频率（至少 1 小时，默认 24 小时）并选择 *Schedule*。规则已启用并按定义的计划运行。</block>
-  <block id="988a89425a3c56162fa9fed77217603a" category="list-text">如需保存而不进行计划，请选择*另存为草稿*。规则已保存，但在您计划之前不会进行评估。</block>
   <block id="f3448dd91675f24e9473969b2f303b47" category="list-text">要放弃规则，请选择*放弃*以取消规则创建并重新开始。</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">结果</block>
   <block id="8e89c0ba0d3b83aea36ecc1be4cfe4fb" category="paragraph">您的自定义规则已创建并在规则目录中列出。如果您设置了计划，它将以指定的频率检查您的 FSx for ONTAP 资源。</block>
@@ -296,15 +293,9 @@
   <block id="3414a9edc41238183f8bcc3192e49adf" category="section-title">规则生命周期</block>
   <block id="990ef24c1b7e8a2bf1d9ad948d75e88c" category="paragraph">自定义规则经历以下状态：</block>
   <block id="f03ab16cd58372c77ba45a3d9a5a1cb9" category="list-text">初稿</block>
-  <block id="7edfa45546f16ea439072c85ed022ded" category="list-text">正在创建规则。未进行评估。</block>
-  <block id="a42abfa6ff4f9bd0c4d682a01cec4455" category="list-text">试运行</block>
-  <block id="df76323d34c18ca92f80a38fd9da8d33" category="list-text">一次性评估，以预览哪些资源将受到影响。用于计划前验证。</block>
   <block id="9c039c6e29eb59991bbe3702d2de1aed" category="list-text">已计划（已启用）</block>
-  <block id="12401e69cfee8012efd57dfa07ccda49" category="list-text">规则处于活动状态，并按定义的时间表运行。</block>
   <block id="b9f5c797ebbf55adccdd8539a65a0241" category="list-text">已禁用</block>
-  <block id="9bfd2521cfb729dd925cf45079242073" category="list-text">规则已暂停但未删除。可以重新启用。</block>
   <block id="5fe6005bf6e415c950c011fb65f12b8f" category="list-text">已删除</block>
-  <block id="82ec5f7cc11035152c40e48c55c05b0d" category="list-text">规则已永久删除。</block>
   <block id="2090e30be5c37fb6b5aa40aa26a83dea" category="section-title">自定义规则示例</block>
   <block id="d272586227e521ec436cb6d107bc72ba" category="paragraph">以下示例说明了常见的自定义规则：</block>
   <block id="ee7f53b205e43e7a5017510113ca16f8" category="list-text">*生产卷保护*</block>
@@ -349,7 +340,6 @@
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">开源</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知文件提供有关 NetApp 软件中使用的第三方版权和许可的信息。</block>
   <block id="2f7453885ba13ef684e6cd780fb74164" category="summary">从规则目录中查看、启用、禁用和删除自定义体系结构规则。</block>
-  <block id="0a7f0abf34857702447ced5ee72899a5" category="paragraph">规则目录是管理所有自定义规则的一个位置。您可以查看每个规则的详细信息，检查其结果，并打开或关闭它。</block>
   <block id="d8bb2214730133a5475bf68bf933cdeb" category="section-title">查看规则目录</block>
   <block id="12dc6c12cd959eea202fab9d01a2ef04" category="paragraph">规则目录显示您创建的所有规则、其状态、计划和最新结果。</block>
   <block id="dd5177b4ae0935729bdc02652d8232ff" category="list-text">选择菜单 <block ref="438b712f6e6afc173ce78a756adc207c" category="inline-image-macro-rx" type="image"></block> ，然后选择*规则生成器*。</block>
@@ -377,7 +367,6 @@
   <block id="b4b7ad5dbb1a5d746e0ac8936e3f4798" category="paragraph">系统根据规则逻辑评估范围内的所有资源。</block>
   <block id="5cb57852939f164731c4f61fcca33dac" category="list-text">查看结果以了解当前合规性状态。</block>
   <block id="2cc894218e78a9699920859cc698e5d7" category="paragraph">测试经过审核，并显示在规则的评估历史记录中。</block>
-  <block id="3d3e89f1bbb9f2c8f8d5468d18a725ec" category="section-title">了解执行状态</block>
   <block id="6e65a771efc9492475fe8b5aa7f1f7a1" category="paragraph">执行状态显示规则是否成功运行。</block>
   <block id="30ae8fff8898dc197acd49d9c0797d20" category="list-text">成功</block>
   <block id="10d8136bef0db24840b317cf2cf9d542" category="list-text">已检查所有相关资源，未找到错误。</block>
@@ -620,8 +609,6 @@
   <block id="01b307f0335162114b66a6190044c275" category="list-text">在您的 Google Cloud 帐户中授予_查看、规划和分析_权限。</block>
   <block id="1341f195ac9799a77bdbba45d7cc551e" category="inline-link-macro">了解如何向 Google Cloud 帐户授予权限</block>
   <block id="011c3ba35123b641365e7db9c488ccaa" category="paragraph"><block ref="011c3ba35123b641365e7db9c488ccaa" category="inline-link-macro-rx"></block></block>
-  <block id="9d1211cf0c0938352f5fc0c16d3f4f45" category="paragraph">Workload Factory 根据存储和 ONTAP 最佳实践以及 Google Cloud Well-Architected Framework 评估存储配置。评估还提出了改进建议。</block>
-  <block id="6e1d527b580364f3697ae14e9ee87785" category="paragraph">精心设计的分析将配置归类为框架的以下支柱：_可靠性_和_卓越运营_。</block>
   <block id="c5a88482771f220e57ee0ee1238fff02" category="paragraph">Workload Factory 建议将 SSD 层使用率保持在 80% 或更低。某些工作负载可能需要额外的容量空间和更低的利用率目标。当使用率超过建议的余量时，性能下降和服务问题的风险就会增加，尤其是在容量未能及时扩展的情况下。您可以针对一个或多个存储池关闭此提示，并在需要时重新激活。</block>
   <block id="7ac5667c1b90b6524fde9817118effea" category="paragraph">Workload Factory 建议将卷使用率保持在 80% 以下，以降低空间用尽的风险。如果卷的增长速度快于预期，则可能需要快速扩展它。这可能会增加应用程序受影响的风险，尤其是在突然或急剧增长的情况下。使用精简配置和自动容量管理时，此风险较低。您可以为一个或多个卷关闭它，然后在需要时重新激活它。</block>
   <block id="f793fba5432b14d544dc9553f3dba075" category="inline-link-macro">实施精心设计的 Google Cloud NetApp Volumes 配置</block>
@@ -681,17 +668,6 @@
   <block id="709be97721c78cba90770231b1263a14" category="inline-link-macro">使用链接连接到 FSx for ONTAP 文件系统</block>
   <block id="b989a53cfcc551a78e451e9bd6b86a6e" category="list-text">为单个卷选择 *Fix*，为多个卷选择 *View and fix*。如果选择 *View and fix*，请选择要修复的受影响卷。</block>
   <block id="39da1b17152d7871cd1a04ff715358e2" category="list-text">从配置分析中确定要重新激活的卷。</block>
-  <block id="7b13fb7d44ed98f093de9f3dd8d11cb6" category="paragraph">Workload Factory 会定期分析存储系统配置，以确定是否存在任何配置问题。当发现问题时，NetApp Console 中的良好架构控制面板会显示问题所在，并解释需要更改的内容，以确保您的存储系统达到最佳性能、成本效益并符合最佳实践。</block>
-  <block id="5d53284fb4850094d575eb9c0096fe4a" category="paragraph">NetApp 使用配置分析见解和建议，帮助您为 Google Cloud NetApp Volumes 存储池实施最佳实践。您可以查看架构完善状态，了解配置问题，并获得改进未在可靠性、安全性、效率、性能和成本方面进行优化的存储池架构的建议。</block>
-  <block id="fee7ee6c35710723ba710f440950ec24" category="paragraph">NetApp 每天分析您的 Google Cloud NetApp Volumes 存储池配置。每日分析提供架构完善状态、见解和建议，帮助您了解配置问题，从而使您的存储池符合最佳实践。</block>
-  <block id="58106dc77a145acb5b9f958b8c944c32" category="paragraph">链接或控制台代理连接让 Workload Factory 能够对文件系统进行全面扫描，以发现性能、数据保护和配置方面的问题。因此，您将获得有关优化 Google Cloud NetApp Volumes 存储池的准确见解和建议。</block>
-  <block id="0368421628656695faa02aba1e7fafc6" category="paragraph">日常分析完成后，架构良好的仪表板会显示架构良好的资源总数、处于关键状态的资源数以及处于警告状态的资源数。配置按照架构完善的框架的支柱进行分类：可靠性、卓越运营、成本优化、性能效率和安全性。仪表板还包括一个列出所有配置的表格。对于每个配置，下表显示：</block>
-  <block id="1ea595e897db3a6c2ebf632b09f893a7" category="list-text">架构完善状态</block>
-  <block id="88fc175a314d22757d9562f6ca85f39c" category="list-text">严重程度</block>
-  <block id="80b1ec0e89bd7572cc1f804e7b6589d5" category="list-text">该类别</block>
-  <block id="8c4ac5176555925ce14fd3b1be3c8cb1" category="list-text">资源类型（卷或存储池）</block>
-  <block id="90965760f6e212d3c1adb1ae943da7b4" category="list-text">受影响的资源</block>
-  <block id="3b8bdf195417f71fd13dc074d454c9d1" category="list-text">在配置未优化时查看建议的选项</block>
   <block id="d1eb4860a9f8c5e03980d78b93e3c145" category="paragraph">（可选）选择 <block ref="c3c5eb7aac1d65e20d3c0a3a1b74a986" category="inline-image-macro-rx" type="image"></block> 以下载所有配置建议的 CSV 文件。</block>
   <block id="969bb8c9e1608f3c46000b160dbf8c50" category="paragraph">NetApp Workload Factory 可帮助您维护和操作可靠、安全、高效且经济高效的配置，这些配置与您使用的存储类型的良好架构框架保持一致。NetApp Console 中的良好架构仪表板提供了跨账户和区域的统一视图，可帮助团队识别风险并确定其优先级，并支持针对特定要求的自定义规则。对存储系统配置的每日自动扫描可提供见解和建议，以帮助您优化存储环境。</block>
   <block id="a081c06e09e507c759e7f4cce85691e2" category="paragraph">Workload Factory 每天分析您的配置。该分析提供架构完善的状态、见解和建议，帮助您优化存储环境。</block>
@@ -701,4 +677,41 @@
   <block id="54675850f07c5f375dabbd24ce963055" category="paragraph">确保与 Cloud Volumes ONTAP 关联的 Console 代理能够访问以下端点：</block>
   <block id="76a31cd6a7131cd21109cee81fd94902" category="list-text"><block ref="e519545489e6eab66fe63f918fb84c99" category="inline-link-macro-rx"></block> 或 <block ref="1c85a9585130a3e66370d665193250bb" category="inline-link-macro-rx"></block> 以设置文件系统与 NetApp Console 之间的连接。</block>
   <block id="5be624540f07772a5d8aaac43ebbcfa8" category="list-text">您必须<block ref="820a9225e29d6d4b9bc54d71d1eeb569" category="inline-link-macro-rx"></block>或<block ref="773b862b73888ba0f103d451af29397c" category="inline-link-macro-rx"></block>，才能对文件系统资源进行最全面的分析。</block>
+  <block id="19d5fea6cca3df1f610ffd920f1e30b2" category="doc">在 Workload Factory 中发现 Flex Unified 资源</block>
+  <block id="61822363118e61bff0df1e874d2e7497" category="paragraph">Workload Factory 现在可以通过 ONTAP API 代理端点查找 Google Cloud NetApp Volumes Flex 统一默认模式和 ONTAP 模式存储池和卷。这些资源显示在清单中，并包含在架构完善评估和建议中。</block>
+  <block id="5fb7119ce8f0dab345a73e06727b5f5c" category="inline-link-macro">了解 Google Cloud NetApp Volumes 的配置分析</block>
+  <block id="ea078abe6abe4c4449bf21e417cc9323" category="paragraph"><block ref="ea078abe6abe4c4449bf21e417cc9323" category="inline-link-macro-rx"></block></block>
+  <block id="eba97ed9f5ee5fe9de4cc6c142ab99f3" category="section-title">从 NetApp Console Canvas 进入 Flex Unified 系统</block>
+  <block id="75d6eeccb13e55d1719bbc0e46902abb" category="paragraph">您现在可以从 NetApp Console Canvas 中为已发现的 Google Cloud NetApp Volumes Flex Unified 系统选择 *Enter System*。这将打开所选系统的"资源"页面，以便您可以使用默认模式系统可用的相同工作流程查看关联的存储池和卷。</block>
+  <block id="64e5c3133fd54a90590f9f70820b19f0" category="section-title">针对 Flex Unified 资源的架构优化评估</block>
+  <block id="2e6ad7053e4127c0f03d51b577942483" category="paragraph">精心设计的仪表板现在可以评估 Google Cloud NetApp Volumes Flex Unified 存储池和卷的 SSD 容量空间、卷容量空间和快照策略覆盖范围。结果显示在 Google Cloud NetApp Volumes 架构良好的体验中，并以默认模式或 ONTAP 模式识别资源。</block>
+  <block id="95ac346bcb6476c44c1697e358f23273" category="paragraph">有关精心架构问题的通知，可从 NetApp Console 的"存储管理系统"页面获取 Google Cloud NetApp Volumes 的相关通知。此功能可帮助您快速识别 Google Cloud NetApp Volumes 系统中的配置问题，并从通知导航到工作负载精心架构仪表板。</block>
+  <block id="677aeb7441cfb06ed7138c57338cfd53" category="paragraph">在保存或计划规则之前，请运行测试以查看它将影响哪些资源。</block>
+  <block id="cdac1db1869db85a5ed349854c63c6bf" category="paragraph">验证规则后，您可以将其保存为草稿或将其设置为定期运行。</block>
+  <block id="9c85906f54c1b8a93d6470f07300ddfa" category="list-text">若要在不安排时间的情况下在验证后保存，请选择*另存为草稿*。规则已保存，但在计划之前不会进行评估。</block>
+  <block id="e65512a782af7ef5675975930ca3bd4f" category="paragraph">NetApp Console 中的架构完善的仪表板会定期检查您的存储系统设置是否存在潜在问题。如果发现任何问题，它会显示问题所在并解释如何解决这些问题，以便您的存储系统能够在 Flex Unified Google Cloud NetApp Volumes 环境的 Default 模式和 ONTAP 模式下良好运行、控制成本并遵循最佳实践。</block>
+  <block id="2801dcf3181a6f2a2f56bb01459e50a4" category="paragraph">Workload Factory 根据存储和 ONTAP 最佳实践以及 Google Cloud Well-Architected Framework 评估存储配置。该评估还建议改进通过 ONTAP API 代理端点发现的 Google Cloud NetApp Volumes 默认模式资源和 Flex Unified 资源。</block>
+  <block id="8a5f3966b3513f7e2233e10a7facba12" category="paragraph">精心设计的分析将配置归类为框架的以下支柱：_可靠性_和_卓越运营_。评估结果可以包括 _Default-mode_ 或 _ONTAP-mode_ 的模式值。</block>
+  <block id="4eb5fd24694777ef00d310821aaa6543" category="paragraph">利用配置分析见解和建议，借助 NetApp 为运行在 Google Cloud 存储上的 Google Cloud NetApp Volumes 存储池和卷实施最佳实践。您可以轻松查看架构完善状态，了解配置问题，并获得改进资源架构的建议，以优化可靠性、安全性、性能和成本。</block>
+  <block id="9d5147b9cfa37007dd174357eb0032b3" category="paragraph">Google Cloud NetApp Volumes 存储池和卷在 Google Cloud 中的部署每日进行分析。每日分析提供架构优良状态、见解和建议，帮助您了解配置问题，从而使您的资源符合最佳实践要求。</block>
+  <block id="740099b5bc77c1731340e1bc44cb9c60" category="paragraph">日常分析完成后，仪表板将显示架构良好的资源总数、处于关键状态的资源数以及处于警告状态的资源数。配置按照架构完善的框架的支柱进行分类：可靠性、卓越运营、成本优化、性能效率和安全性。仪表板还包括一个表，其中列出了所有配置、这些配置的良好架构状态、严重性、类别、资源类型（卷或存储池）、受影响的资源，以及在配置未优化时查看建议的选项。这包括 Default 模式和 ONTAP 模式。</block>
+  <block id="ff5a2e898f3cd314dc92f7cfc32fde17" category="paragraph">对于 Flex Unified 环境，建议可以包括存储池的 SSD 容量余量、卷的卷容量余量以及卷的快照策略覆盖范围。</block>
+  <block id="007cc9547ae8884ad597cd92ba505422" category="list-text">严重性</block>
+  <block id="29f24526b8a15162c1cb976fa37f20d2" category="list-text">规则的重要性级别，例如警告或严重级别。</block>
+  <block id="b6e0b0c90cfbddfe767f137f8066d1df" category="list-text">进行中</block>
+  <block id="d4008ffe54f55490997ab0d5940aafb3" category="list-text">创建或检查规则。</block>
+  <block id="b75ff201f3276decaffcefb7b216622f" category="list-text">无法创建</block>
+  <block id="81b502eadde262c25792a2be1e3b3626" category="list-text">无法创建此规则。</block>
+  <block id="c4e6fec5ee0f22a348768aa087f15acb" category="list-text">已保存但尚未计划。</block>
+  <block id="7401c14d073cd1188b475ef7f5e0cdc8" category="list-text">已验证草稿</block>
+  <block id="de28b803b960b2c037e1abe4d18cf9d7" category="list-text">已通过验证，可以保存或计划。</block>
+  <block id="cf61937578a34d9f00c4f6dd6f175c05" category="list-text">活动并按照定义的时间表运行。</block>
+  <block id="ca7e0b16936fbee3bd2dd7f992b32b4d" category="list-text">已暂停但未删除。可以重新启用。</block>
+  <block id="71e78f13c09017bc4b63f46243d379b7" category="list-text">已永久删除。</block>
+  <block id="756da7df6941fe78c43bd929d17f5b4c" category="paragraph">规则目录是管理所有自定义规则的一个位置。您可以查看规则详细信息、检查结果并控制规则是否按计划运行。</block>
+  <block id="218354993137c1ab05ff800f7d8fc484" category="section-title">了解规则和执行状态</block>
+  <block id="6e03454840286802ffb1cb92ef134388" category="paragraph">规则目录显示规则状态和执行状态。</block>
+  <block id="7eb618243aa6361c56c0556d8db7c199" category="list-text">规则状态</block>
+  <block id="1daa462cc0aa2997ad7248e918251f5f" category="list-text">*草稿*表示规则已保存但尚未计划。*进行中*表示正在创建或验证规则。*已计划*表示规则处于活动状态并按计划运行。*已暂停*表示规则保留在目录中，但不运行。*创建失败*表示规则未完成，需要在聊天中更新才能保存。</block>
+  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026年9月27日</block>
 </blocks>

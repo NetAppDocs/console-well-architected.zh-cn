@@ -1,0 +1,37 @@
+= 在 Workload Factory 中发现 Flex Unified 资源
+:allow-uri-read: 
+
+
+
+
+[[discover-flex-unified-resources-in-workload-factory]]
+=== 在 Workload Factory 中发现 Flex Unified 资源
+
+Workload Factory 现在可以通过 ONTAP API 代理端点查找 Google Cloud NetApp Volumes Flex 统一默认模式和 ONTAP 模式存储池和卷。这些资源显示在清单中，并包含在架构完善评估和建议中。
+
+link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["了解 Google Cloud NetApp Volumes 的配置分析"]
+
+
+
+[[enter-flex-unified-systems-from-netapp-console-canvas]]
+=== 从 NetApp Console Canvas 进入 Flex Unified 系统
+
+您现在可以从 NetApp Console Canvas 中为已发现的 Google Cloud NetApp Volumes Flex Unified 系统选择 *Enter System*。这将打开所选系统的"资源"页面，以便您可以使用默认模式系统可用的相同工作流程查看关联的存储池和卷。
+
+link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["了解 Google Cloud NetApp Volumes 的配置分析"]
+
+
+
+[[well-architected-assessments-for-flex-unified-resources]]
+=== 针对 Flex Unified 资源的架构优化评估
+
+精心设计的仪表板现在可以评估 Google Cloud NetApp Volumes Flex Unified 存储池和卷的 SSD 容量空间、卷容量空间和快照策略覆盖范围。结果显示在 Google Cloud NetApp Volumes 架构良好的体验中，并以默认模式或 ONTAP 模式识别资源。
+
+link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["了解 Google Cloud NetApp Volumes 的配置分析"]
+
+
+
+[[well-architected-issues-displayed-in-netapp-console-systems-page]]
+=== 在 NetApp Console 系统页面中显示的架构良好问题
+
+有关精心架构问题的通知，可从 NetApp Console 的"存储管理系统"页面获取 Google Cloud NetApp Volumes 的相关通知。此功能可帮助您快速识别 Google Cloud NetApp Volumes 系统中的配置问题，并从通知导航到工作负载精心架构仪表板。
