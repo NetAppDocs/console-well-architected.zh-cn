@@ -713,5 +713,5 @@
   <block id="6e03454840286802ffb1cb92ef134388" category="paragraph">规则目录显示规则状态和执行状态。</block>
   <block id="7eb618243aa6361c56c0556d8db7c199" category="list-text">规则状态</block>
   <block id="1daa462cc0aa2997ad7248e918251f5f" category="list-text">*草稿*表示规则已保存但尚未计划。*进行中*表示正在创建或验证规则。*已计划*表示规则处于活动状态并按计划运行。*已暂停*表示规则保留在目录中，但不运行。*创建失败*表示规则未完成，需要在聊天中更新才能保存。</block>
-  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026年9月27日</block>
+  <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">2026年9月30日</block>
 </blocks>
